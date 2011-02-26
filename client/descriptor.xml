@@ -12,4 +12,5 @@
 	<startWindow>launch</startWindow>
 	<platform>all</platform>
 	<minversion>0.9.20</minversion>
+	<test-app>true</test-app>
 </app>
