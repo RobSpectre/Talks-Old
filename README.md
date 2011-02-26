@@ -9,6 +9,7 @@ This Boxee app delivers Rob's talk given at the Southern California Linux Expo i
 <ol>
 <li>Check out project.</li>
 <li>Copy "client" folder to ~/.boxee/UserData/apps.</li>
+<li>Change client folder name to "opensourcetv".</lie>
 <li>Start Boxee.</li>
 <li>Navigate to Apps.</li>
 <li>Launch "Open Source Television."</li>
