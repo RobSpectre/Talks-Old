@@ -1,11 +1,13 @@
-#  Open Source Television - a talk about how Boxee gives and gets from FOSS.
+# Rob's talks - A bunch of Rob's talks, now with tender git flavor.
 
-## Summary
+## Boxee for Hackers - a quick technical intro for folks who want to hack on Boxee.
 
-This Boxee app delivers Rob's talk given at the Southern California Linux Expo in 2011 (SCALE9x).
+### Summary
 
+This Boxee app delivers Rob's talk given at hackathons and other developer centric events, like NYC Python or hackNY.
 
-## Installation
+### Installation
+
 <ol>
 <li>Check out project.</li>
 <li>Copy "client" folder to ~/.boxee/UserData/apps.</li>
@@ -16,9 +18,28 @@ This Boxee app delivers Rob's talk given at the Southern California Linux Expo i
 <li>Enjoy the delicious cake.</li>
 </ol>
 
-## Changelog:
 
-### v1.0 : 25 February 2011
+##  Open Source Television - a talk about how Boxee gives and gets from FOSS.
+
+### Summary
+
+This Boxee app delivers Rob's talk given at the Southern California Linux Expo in 2011 (SCALE9x).
+
+
+### Installation
+<ol>
+<li>Check out project.</li>
+<li>Copy "client" folder to ~/.boxee/UserData/apps.</li>
+<li>Change client folder name to "opensourcetv".</lie>
+<li>Start Boxee.</li>
+<li>Navigate to Apps.</li>
+<li>Launch "Open Source Television."</li>
+<li>Enjoy the delicious cake.</li>
+</ol>
+
+### Changelog:
+
+#### v1.0 : 25 February 2011
 
 Release:
 
