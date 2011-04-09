@@ -10,11 +10,12 @@ This Boxee app delivers Rob's talk given at hackathons and other developer centr
 
 <ol>
 <li>Check out project.</li>
+<li>Navigate to "Boxee for Hackers" subdirectory.</li>
 <li>Copy "client" folder to ~/.boxee/UserData/apps.</li>
-<li>Change client folder name to "opensourcetv".</lie>
+<li>Change client folder name to "boxeeforhackers".</lie>
 <li>Start Boxee.</li>
 <li>Navigate to Apps.</li>
-<li>Launch "Open Source Television."</li>
+<li>Launch "Boxee For Hackers."</li>
 <li>Enjoy the delicious cake.</li>
 </ol>
 
@@ -29,6 +30,7 @@ This Boxee app delivers Rob's talk given at the Southern California Linux Expo i
 ### Installation
 <ol>
 <li>Check out project.</li>
+<li>Navigate to "Open Source Television" subdirectory.</li>
 <li>Copy "client" folder to ~/.boxee/UserData/apps.</li>
 <li>Change client folder name to "opensourcetv".</lie>
 <li>Start Boxee.</li>
