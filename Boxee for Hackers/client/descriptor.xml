@@ -1,0 +1,16 @@
+<app>
+	<id>boxeeforhackers</id>
+	<name>Boxee For Hackers</name>
+	<version>1.0</version>
+	<description>Rob's talk introducing new hackers to Boxee</description>
+	<thumb>http://dir.boxee.tv/apps/boxeeforhackers/images/thumb.png</thumb>
+	<repository>http://dir.boxee.tv/apps</repository>
+	<media>video</media>
+	<copyright>Boxee</copyright>
+	<email>support@boxee.tv</email>
+	<type>skin</type>
+	<startWindow>launch</startWindow>
+	<platform>all</platform>
+	<minversion>0.9.20</minversion>
+	<test-app>true</test-app>
+</app>

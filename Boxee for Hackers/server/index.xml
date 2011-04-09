@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:boxee="http://boxee.tv/rss" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title>Open Source Television - SCALE9x</title>
+<link>rss://apps.gonzee.tv/eguiders/feedgen.php</link>
+<description>Rob's talk about Boxee at the Southern California Linux Expo 2011.</description>
+<language>en-us</language>
+<item>
+	<title>Slide0</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img0.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img0.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide1</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img1.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img1.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide2</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img2.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img2.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide3</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img3.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img3.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide4</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img4.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img4.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide5</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img5.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img5.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide6</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img6.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img6.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide7</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img7.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img7.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide8</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img8.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img8.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide9</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img9.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img9.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide10</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img10.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img10.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide11</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img11.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img11.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide12</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img12.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img12.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide13</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img13.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img13.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide14</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img14.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img14.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide15</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img15.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img15.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide16</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img16.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img16.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide17</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img17.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img17.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide18</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img18.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img18.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide19</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img19.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img19.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide20</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img20.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img20.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide21</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img21.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img21.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide22</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img22.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img22.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide23</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img23.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img23.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide24</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img24.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img24.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide25</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img25.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img25.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide26</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img26.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img26.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide27</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img27.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img27.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide28</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img28.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img28.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide29</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img29.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img29.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide30</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img30.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img30.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide31</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img31.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img31.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide32</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img32.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img32.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide33</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img33.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img33.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide34</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img34.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img34.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide35</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img35.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img35.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide36</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img36.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img36.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide37</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img37.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img37.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide38</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img38.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img38.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide39</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img39.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img39.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide40</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img40.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img40.png" type="image/Png" height="600" width="800" />
+</item>
+<item>
+	<title>Slide41</title> 
+	<media:thumbnail url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img41.png" />
+	<media:content url="http://dir.boxee.tv/apps/boxeeforhackers/slides/img41.png" type="image/Png" height="600" width="800" />
+</item>
+</channel>
+</rss>
