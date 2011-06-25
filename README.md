@@ -1,5 +1,17 @@
 # Rob's talks - A bunch of Rob's talks, now with tender git flavor.
 
+## Intro to LimeJS - A HTML5 framework for making 2D Games.
+
+### Summary
+
+LimeJS is a Closure/Box2d based framework for making 2D games for browsers both on desktops and mobile.
+
+### Installation
+
+Download LibreOffice, snacky!
+
+
+
 ## Boxee for Hackers - a quick technical intro for folks who want to hack on Boxee.
 
 ### Summary
