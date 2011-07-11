@@ -1,0 +1,46 @@
+Scratch agenda:
+
+1) Intro to programming
+2) Intro to Logic
+3) Introduce robot and space
+	a) Concept of sprite
+	b) Concept of grid
+4) Get robot to cross road (Functions)
+	a) Green flag
+	b) Change x by n
+	c) Add repeat
+5) Smooth animation (Loops)
+	a) Introduce repeat effect
+	b) Repeat same action n times
+	c) Fiddle with parameters until it is very smooth
+5) Get robot to pogo jump (Events)
+	a) add "When space is pressed"
+	b) Add change y
+	c) Add negative y
+	d) Fiddle with parameters to smooth animation	
+6) Add arrow control (User Input)
+	a) left arrow
+	b) Right arrow
+7) Add costume switching (Conditions)
+	a) Switch to costume tab
+	b) Copy robot costume
+	c) Switch horizontally
+	d) Introduce looks button
+	e) Add switch to costume looks 
+8) Add conditional logic to remove pogo effect (Conditional Logic)
+	a) Introduce if statement
+	b) add if... else... statement
+	c) add operator 
+	d) Add sensing condition
+	e) Set value for costume
+9) Free form
+	a) Change costumes
+	b) Change sprites
+	c) Change background
+	d) Introduce new ability
+		1) Jump farther?
+		2) Fly-Jetpack
+		3) Change the appearance using paint
+		4) Change color on a keypress
+		5) Add a powerup
+10) Team demos

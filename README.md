@@ -1,5 +1,22 @@
 # Rob's talks - A bunch of Rob's talks, now with tender git flavor.
 
+## Intro to Programming - a two hour workshop for middle schoolers to learn basic programming concepts.
+
+### Summary
+
+Using an educational tool from MIT called [http://scratch.mit.edu](Scratch), this workshop is geared for a middle school audience to teach basic
+logic concepts such as functions, loops, conditions, and events through the construction of a very basic video game.  Originally
+Given for George Haines' [http://twitter.com/#!/microinterns](MicroInterns) project.
+
+### Files
+
+* Scratch for Windows, Mac or Linux [http://info.scratch.mit.edu/Scratch_1.4_Download](here).
+* Intro to Programming.odp - Introduction deck to presentation
+* microinterns.sb - Template Scratch project for students to start with.
+* microinterns_complete.sb - Completed Scratch project to demo.
+* microinterns_agenda - Text of walkthrough for students.
+
+
 ## Intro to LimeJS - A HTML5 framework for making 2D Games.
 
 ### Summary
@@ -63,7 +80,7 @@ Release:
 
 
 ## Contributors
-* Rob Spectre - http://facebook.com/rob.spectre
+* Rob Spectre - http://about.me/robspectre
 
 
 ## License:
