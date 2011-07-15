@@ -1,5 +1,15 @@
 # Rob's talks - A bunch of Rob's talks, now with tender git flavor.
 
+## Writing Writable APIs the Write Way - a developer intro to Fluidinfo.
+
+### Summary
+
+A fifteen minute introduction to an *awesome* data service called Fluidinfo, illustrating how you can write your own writable API in just minutes.
+
+* outline.md - The demo script, including live code walkthrough
+* Writing Writable APIs the Write Way.odp - introductory deck
+
+
 ## Intro to Programming - a two hour workshop for middle schoolers to learn basic programming concepts.
 
 ### Summary
