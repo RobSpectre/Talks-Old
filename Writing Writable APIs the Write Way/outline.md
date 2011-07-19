@@ -23,54 +23,65 @@ Writing Writable APIs the Write Way
     - Permissions
 - Create the API - coding walk through
     - Create an arbitrary namespace
+
     	```python
         h, r = fluidinfo.call("POST", "/namespaces/[demouser]", {'name': 'demoNamespace', 'description': 'Demo Description'})
-		```
+	```
 
     - Create a tag for the namespace
+
         ```python
         h, r = fluidinfo.call("POST", "/tags/[demouser]/[demonamespace]", {'name': 'demoTag', 'description': 'Demo Tag.', 'indexed': False})
-		```
+	```
     - Create some objects
         - Introduce /about endpoint
-        ```python
-        h, r = fluidinfo.call("POST", "/about/demo object")
-        ```
+
+            ```python
+            h, r = fluidinfo.call("POST", "/about/demo object")
+            ```
         - Add tag: 
-        ```python
-        h, r = fluidinfo.call("PUT", "/about/demo object/demouser/demoNamespace/demoTag")
-        ```
+
+            ```python
+            h, r = fluidinfo.call("PUT", "/about/demo object/demouser/demoNamespace/demoTag")
+            ```
     - Check out what we've done so far.
         - Introduce basic query
-        ```python
-        h, r = fluidinfo.call("GET", "/objects", query="has demouser/demoNamespace/demoTag")
-        ```
+
+            ```python
+            h, r = fluidinfo.call("GET", "/objects", query="has demouser/demoNamespace/demoTag")
+            ```
         - Demonstrate bringing up the information in another REST interface (e.g. apigee)
 - Super Bonus Points Fun
     - Show off types with tags
         - Select a couple objects
         - Tag with integer value: 
-        ```python
-        h, r = fluidinfo.call("PUT", "/about/demo object/demouser/demoNamespace/demovalue", 7)
-        ```
+
+            ```python
+            h, r = fluidinfo.call("PUT", "/about/demo object/demouser/demoNamespace/demovalue", 7)
+            ```
         - Query for integer value: 
-        ```python
-        h, r = fluidinfo.call("GET", "/objects", query="demouser/demoNamespace/demovalue > 5")
-        ```
+
+            ```python
+            h, r = fluidinfo.call("GET", "/objects", query="demouser/demoNamespace/demovalue > 5")
+            ```
     - Opaque Values
         - Create a photo tag:
-        ```python
-        h, r = fluidinfo.call("POST", "/tags/[demouser]/[demonamespace]", {'name': 'photo', 'description': 'Photo tag.', 'indexed': False})
-        ```
+
+            ```python
+            h, r = fluidinfo.call("POST", "/tags/[demouser]/[demonamespace]", {'name': 'photo', 'description': 'Photo tag.', 'indexed': False})
+            ```
         - Save a photo: 
-        ```python
-        h, r = fluidinfo.call("PUT", "/about/demo object/demouser/demoNamespace/photo", photo.read(), mime="image/jpg")
-        ```
+
+            ```python
+            h, r = fluidinfo.call("PUT", "/about/demo object/demouser/demoNamespace/photo", photo.read(), mime="image/jpg")
+            ```
         - Get object: 
-        ```python
-        h, r = fluidinfo.call("GET", "/about/demo object")
-        ```
+
+            ```python
+            h, r = fluidinfo.call("GET", "/about/demo object")
+            ```
         - View photo in browser: 
-        ```python
-        https://fluiddb.fluidinfo.com/objects/[object id]/demouser/demoNamespace/photo
-        ```
+
+            ```
+            https://fluiddb.fluidinfo.com/objects/[object id]/demouser/demoNamespace/photo
+            ```
