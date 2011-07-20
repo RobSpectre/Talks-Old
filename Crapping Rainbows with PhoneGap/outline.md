@@ -19,7 +19,6 @@ with only one codebase to maintain.
     - A world where you write once and deploy to all
     - A world where the Yankees always lose and the Red Sox always win
     - A world where unicorns crap rainbows on Bedford Ave, making life hell for the hipster indentured servants
-    - A world where dogs and cats live together, mass hysteria
     - Talk Agenda
     	- Introduction to PhoneGap
     	- Traction
@@ -47,7 +46,7 @@ with only one codebase to maintain.
 	    - More professional services likely in the works  
 	
 - Traction
-    - Release candidates for 1.0 GA
+    - Release candidate for 1.0 GA
     - Apple has approved its use, even with the new iOS 4.0 developer license changes
     - appMobi has adopted it as the backbone of their client service
     - Built-in to Adobe Dreamweaver 5.5
@@ -60,9 +59,7 @@ with only one codebase to maintain.
 - How It Works
     - Write your app - whatever you want, backbone, jQuery touch or mobile, XUI, Impact (if you're making a game)
     - *Wrap* that app with PhoneGap
-    - Display features
     - Access native hardware features through the PhoneGap API
-    - Use a template
     - PhoneGap build - This is the awesome sauce.
     
 - What The Code Looks Like
