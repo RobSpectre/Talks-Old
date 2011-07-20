@@ -203,8 +203,9 @@ with only one codebase to maintain.
         ```javascript
         var db = window.openDatabase("test", "1.0", "Test DB", 1000000);
         ```
+        
 - How To Get Started
     - phonegap.com
     - Free O'Reilly book online by Jonathan Stark (http://ofps.oreilly.com/titles/9780596805784/)
-    - HowToForge has a good step-by-step to setting up your dev environment
+    - HowToForge has a good step-by-step to setting up your dev environment (http://www.howtoforge.com/setting-up-an-android-app-build-environment-with-eclipse-android-sdk-phonegap-ubuntu-11.04)
     - Let me know how it goes (@dN0t)
