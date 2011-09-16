@@ -6,7 +6,7 @@ A fifteen minute look at PhoneGap from a dude who has never used PhoneGap.
 ### Summary
 
 PhoneGap is a FOSS mobile framework that supports six mobile platforms, including iOS, Android, Blackberry, and Windows Phone.  Boldly claiming itself
-a gateway for web developers to develop mobile apps with native look and feel, PhoneGap could be the Holy Grail for web developers to enter the mobile space
+a gateway for web developers to develop mobile apps with native features, PhoneGap could be the Holy Grail for web developers to enter the mobile space
 with only one codebase to maintain.
 
 
