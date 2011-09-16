@@ -1,11 +1,37 @@
-# Rob's Talks
+Rob's Talks
+###########################
 
 A bunch of Rob's talks, now with tender git flavor.
 
 
-## Crapping Rainbows with PhoneGap
+Kicking the Tires with Google App Engine
+--------------------------------
+
+A pragmatic introduction to Google App Engine for a Python audience.
+Given at PennApps, September 2011.
+
+### Summary
+
+A 90 minute introduction to Google App Engine, coverings its history, context, and application for the Python developer.
+Includes examination of sample code and description of the WebApp, Datastore, User, Oauth, Channel, and Task APIs.
+
+### Files
+
+* README.md - Talk outline with code examples.
+* Kicking the Tires with Google App Engine.odp - Illustrated deck in OpenOffice format.
+* Kicking the Tires with Google App Engine.pdf - Illustrated deck in PDF format.
+
+### Installation
+
+Install LibreOffice if you're awesome.
+Install a PDF viewer if you're not awesome.
+
+
+Crapping Rainbows with PhoneGap
+--------------------------------
 
 A technical evaluation of PhoneGap, a HTML5 mobile framework.
+Given at Williamsburg Tech Meetup, August 2011.
 
 ### Summary
 
@@ -14,7 +40,7 @@ origins, current traction and reviews code examples to give an impression of via
 
 ### Files
 
-* outline.md - Talk outline with code examples.
+* README.md - Talk outline with code examples.
 * Crapping Rainbows with PhoneGap.odp - Illustrated deck in OpenOffice format.
 
 ### Installation
@@ -22,13 +48,15 @@ origins, current traction and reviews code examples to give an impression of via
 Install LibreOffice, yo!  Your mother will thank you.
 
 
-## Writing Writable APIs the Write Way
+Writing Writable APIs the Write Way
+-----------------------------------
 
-A developer intro to Fluidinfo.
+A introduction to Fluidinfo for a developer audience.  Brief explanation followed by live coding examples.
+Given to get a job at Twilio, August 2011.
 
 ### Summary
 
-A fifteen minute introduction to an *awesome* data service called Fluidinfo, illustrating how you can write your own writable API in just minutes.
+A twenty minute introduction to an *awesome* data service called Fluidinfo, illustrating how you can write your own writable API in just minutes.
 
 * outline.md - The demo script, including live code walkthrough
 * Writing Writable APIs the Write Way.odp - Illustrated deck in OpenOffice format.
@@ -38,9 +66,11 @@ A fifteen minute introduction to an *awesome* data service called Fluidinfo, ill
 Awwwww yeah - install LibreOffice!
 
 
-## Intro to Programming
+Intro to Programming
+---------------------------------------
 
 A two hour workshop for middle schoolers to learn basic programming concepts.
+Given for George Haines Microinterns program, June 2011
 
 ### Summary
 
@@ -65,9 +95,11 @@ Given for George Haines' [MicroInterns](http://twitter.com/#!/microinterns) proj
 * Follow outline (microinterns_agenda.md) to demonstrate.
 
 
-## Intro to LimeJS
+Intro to LimeJS
+--------------------------------
 
 A HTML5 framework for making 2D Games.
+Given at Game Hack Day, June 2011.
 
 ### Summary
 
@@ -83,11 +115,15 @@ Download LibreOffice, snacky!
 
 
 
-## Boxee for Hackers - a quick technical intro for folks who want to hack on Boxee.
+Boxee for Hackers
+--------------------------------------
+
+A quick technical intro for folks who want to hack on Boxee.
+Given innumerable times to anyone who would listen.
 
 ### Summary
 
-This Boxee app delivers Rob's talk given at hackathons and other developer centric events, like NYC Python or hackNY.
+This Boxee app delivers Rob's talk given at hackathons and other developer centric events.
 
 ### Installation
 
@@ -103,7 +139,11 @@ This Boxee app delivers Rob's talk given at hackathons and other developer centr
 </ol>
 
 
-##  Open Source Television - a talk about how Boxee gives and gets from FOSS.
+Open Source Television
+--------------------------------------
+
+A talk about how Boxee gives and gets from FOSS.
+Given at SCaLE9x, January 2011.
 
 ### Summary
 
@@ -124,7 +164,7 @@ This Boxee app delivers Rob's talk given at the Southern California Linux Expo i
 
 
 ## Contributors
-* Rob Spectre - http://about.me/robspectre
+* Rob Spectre - http://www.brooklynhacker.com
 
 
 ## License:
