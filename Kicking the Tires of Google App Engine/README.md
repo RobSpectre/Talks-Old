@@ -126,6 +126,7 @@ Outline
         
     - Other Features
     	- Users - Super easy to use gmail sign on
+    	
     	```python
     	from google.appengine.api import users
 		from google.appengine.ext import webapp
@@ -142,6 +143,7 @@ Outline
 		            self.redirect(users.create_login_url(self.request.uri))
 		```
     	- OAuth - create an Oauth service provider nearly as early as using as Google users
+    	
     	```python
     	from google.appengine.api import oauth
 
@@ -154,6 +156,7 @@ Outline
             # The request was not a valid OAuth request.
             # ...
     	```
+    	
     	- Channels - message bus you can us in JS, now with Presence
     	- Tasks - there is a Task Queuer where you can launch async code blocks with Push and Pull
 
@@ -177,20 +180,20 @@ Outline
 Documenation and Important Links
 -----------------------------
 
-* (Dashboard)[https://appengine.google.com/]
-* (Getting Started with Python)[http://code.google.com/appengine/docs/python/gettingstarted/]
-* (Python Reference Docs)[http://code.google.com/appengine/docs/python/overview.html]
-* (Blog)[http://googleappengine.blogspot.com/]
-* (Status)[http://code.google.com/status/appengine]
-* (Introduction to Google App Engine by Guido van Rossum)[http://www.stanford.edu/class/ee380/Abstracts/081105.html] 
+* [Dashboard](https://appengine.google.com/)
+* [Getting Started with Python](http://code.google.com/appengine/docs/python/gettingstarted/)
+* [Python Reference Docs](http://code.google.com/appengine/docs/python/overview.html)
+* [Blog](http://googleappengine.blogspot.com/)
+* [Status](http://code.google.com/status/appengine)
+* [Introduction to Google App Engine by Guido van Rossum](http://www.stanford.edu/class/ee380/Abstracts/081105.html) 
 
 
 References
 ----------------------------
 
-* (What is Google App Engine?)[http://code.google.com/appengine/docs/whatisgoogleappengine.html]
-* (Wikipedia)[http://en.wikipedia.org/wiki/Google_App_Engine]
-* (Find the Best Comparison of AWS, Azure and GAE)[http://cloud-computing.findthebest.com/compare/5-15-17/Amazon-EC2-vs-Google-App-Engine-vs-Microsoft-Windows-Azure]
-* (Google App Engine Price Hike Stuns Developers)[http://www.informationweek.com/articles/231600672]
-* (Has Google Done Enough To Mollify Users of App Engine)[http://www.i-programmer.info/news/141-cloud-computing/3047-price-change-for-app-engine.html]
-* (Using virtualenv with Google App Engine)[http://schettino72.wordpress.com/tag/virtualenv/]
+* [What is Google App Engine?](http://code.google.com/appengine/docs/whatisgoogleappengine.html)
+* [Wikipedia](http://en.wikipedia.org/wiki/Google_App_Engine)
+* [Find the Best Comparison of AWS, Azure and GAE](http://cloud-computing.findthebest.com/compare/5-15-17/Amazon-EC2-vs-Google-App-Engine-vs-Microsoft-Windows-Azure)
+* [Google App Engine Price Hike Stuns Developers](http://www.informationweek.com/articles/231600672)
+* [Has Google Done Enough To Mollify Users of App Engine](http://www.i-programmer.info/news/141-cloud-computing/3047-price-change-for-app-engine.html)
+* [Using virtualenv with Google App Engine](http://schettino72.wordpress.com/tag/virtualenv/)
