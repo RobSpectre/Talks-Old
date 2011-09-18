@@ -3,6 +3,28 @@ Rob's Talks
 
 A bunch of Rob's talks, now with tender git flavor.
 
+How To Crush Your Hackathon Demo
+--------------------------------
+
+A fifteen minute speed pep-talk to help hackathon participants polish their presentations.
+Given at PennApps Data, September 2011. 
+
+### Summary
+
+A lightning fast pump-you-up ahead of a hackathon demo session intended to help folks accelerate their hacks.
+
+### Files
+
+* README.md - Talk outline with code examples.
+* How To Crush Your Hackathon Demo.odp - Illustrated deck in OpenOffice format.
+* How To Crush Your Hackathon Demo.pdf - Illustrated deck in PDF format.
+
+### Installation
+
+Install a PDF viewer if you're trifling.
+Install LibreOffice if you're true playa.
+
+
 
 Kicking the Tires with Google App Engine
 --------------------------------
