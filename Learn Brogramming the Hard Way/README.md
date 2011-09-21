@@ -28,13 +28,13 @@ Outline
         - Solid brogrammers expand their knowledge base.
         - You want to be on top of your game, grok something new every day.
     - Tech
-        - "The Practical Brogrammer: From Townie to Totally Chill"
+        - "The Pragmatic Brogrammer: From Townie to Totally Chill"
         - CLRSS 4th Ed: Coreman, Leiserson, Rivest, Stein and Steezy - The brototypical text on algorithmic design.
         - Resacktoring: Improving the Design of Existing Code - Sometimes, some slump buster gets into your codebase and harshes your app."  
     - Bro Literature
 	    - ("On the Bro'd" by Jack Kerouac)[http://onthebrod.com/] - "I first met Dean not long after Tryscha and I hooked up. I had just gotten over a wicked fucking hangover that I won’t bother to talk about, except that it had something to do with a six-foot-five douchebag and a beer bong."
 	    - "Probie Dick" by Herdude Melville - a stunning descent into the obsessive depths of a sea-faring fraternity pledgemaster.
-	    - My Life by Bill Clinton
+	    - My Life by Bill Clinton.  That bro gets the ladies.
 - Trunk
     - Definition
         - Trunk is more than just the SVN directory where everyone on your 150 person project commits to HEAD, bro.
