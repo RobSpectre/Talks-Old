@@ -1,7 +1,8 @@
 Learn Brogramming the Hard Way
 #################################
 
-A ten-minute comedy routine riffing on the Brogramming meme.  
+A fifteen-minute comedy routine riffing on the Brogramming meme.  Performed as the uber-bro character "Chad," this presentation showcases a framework for improving oneself as a brogrammer called The Brotocol - Grok, Trunk and Live.
+A one-time-only performance given at [Twilio Conference](http://www.twilio.com/conference), September 2011.  
 
 
 Outline
@@ -29,8 +30,8 @@ Outline
         - You want to be on top of your game, grok something new every day.
     - Tech
         - "The Pragmatic Brogrammer: From Townie to Totally Chill"
-        - CLRSS 4th Ed: Coreman, Leiserson, Rivest, Stein and Steezy - The brototypical text on algorithmic design.
-        - Resacktoring: Improving the Design of Existing Code - Sometimes, some slump buster gets into your codebase and harshes your app."  
+        - CLRSS 4th Ed: Coreman, Leiserson, Rivest, Stein and Steezy - The brototypical text on algorithmic design.  It's got some great stuff on integrating broroutines and complex shawty distribution maps.  Really helps in the club.
+        - Resacktoring: Improving the Design of Existing Brode - Sometimes, some slump buster gets into your codebase and harshes your app."  
     - Bro Literature
 	    - ("On the Bro'd" by Jack Kerouac)[http://onthebrod.com/] - "I first met Dean not long after Tryscha and I hooked up. I had just gotten over a wicked fucking hangover that I won’t bother to talk about, except that it had something to do with a six-foot-five douchebag and a beer bong."
 	    - "Probie Dick" by Herdude Melville - a stunning descent into the obsessive depths of a sea-faring fraternity pledgemaster.
@@ -74,15 +75,19 @@ Outline
     - Peace out!
     
 
-Backlog
------------------------------------------
-
-Jokes that didn't make the routine.
-
-
-
-Reference
+References
 ---------------------------------
 
-* (Facebook Brogramming Page)[http://www.facebook.com/getwiththebrogram]
-* (Brogramming Quora Thread)[http://www.quora.com/Brogramming/How-does-a-programmer-become-a-brogrammer]
+* [Urban Dictionary Definition](http://www.urbandictionary.com/define.php?term=brogrammer)
+* [Facebook Brogramming Page](http://www.facebook.com/getwiththebrogram)
+* [Brogramming Quora Thread](http://www.quora.com/Brogramming/How-does-a-programmer-become-a-brogrammer)
+* [Brogrammers.org](http://www.brogrammers.org)
+
+
+
+Credits
+----------------------------------
+
+* [Rob Spectre](http://www.brooklynhacker.com)
+* Outline released under [GPLv3](http://gplv3.fsf.org/)
+* Slides all a bunch of random shit I found on Google Images. 
