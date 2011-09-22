@@ -3,6 +3,28 @@ Rob's Talks
 
 A bunch of Rob's talks, now with tender git flavor.
 
+
+Learn Brogramming The Hard Way
+--------------------------------
+
+A fifteen-minute comedy routine riffing on the Brogramming meme.
+
+A one-time-only performance given at [Twilio Conference](http://www.twilio.com/conference), September 2011.
+
+### Summary
+
+Performed as the uber-bro character "Chad," this presentation showcases a framework for improving oneself as a brogrammer called The Brotocol - Grok, Trunk and Live.
+
+### Files
+
+* README.md - Routine in outline form.
+* Learn Brogramming The Hard Way.odp - Illustrated deck in OpenOffice format.
+
+### Installation
+
+Install LibreOffice, bro.
+
+
 How To Crush Your Hackathon Demo
 --------------------------------
 
