@@ -1,5 +1,5 @@
 Learn Brogramming the Hard Way
-#################################
+=====================================
 
 A fifteen-minute comedy routine riffing on the Brogramming meme.  Performed as the uber-bro character "Chad," this presentation showcases a framework for improving oneself as a brogrammer called The Brotocol - Grok, Trunk and Live.
 A one-time-only performance given at [Twilio Conference](http://www.twilio.com/conference), September 2011.  
