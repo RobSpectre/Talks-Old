@@ -1,11 +1,26 @@
-Rob's Talks
-###########################
+# Rob's Talks
 
 A bunch of Rob's talks, now with tender git flavor.
 
 
-Learn Brogramming The Hard Way
---------------------------------
+## How To Take Second at a Hackathon
+
+A fifteen minute pump-you-up talk on how to perform well at a hackathon,
+codejam, buildoff, or startup weekend.  Tactical advice from a veteran of these
+types of events on how focus, finish and place well in an intensive limited-time
+creative competition.
+
+### Files
+
+* README.md - outline of the talk
+* How To Take Second at a Hackathon.odp - Illustrated deck in OpenOffice format.
+
+### Installation
+
+Install LibreOffice, fo shizzle.
+
+
+## Learn Brogramming The Hard Way
 
 A fifteen-minute comedy routine riffing on the Brogramming meme.
 
@@ -25,8 +40,7 @@ Performed as the uber-bro character "Chad," this presentation showcases a framew
 Install LibreOffice, bro.
 
 
-How To Crush Your Hackathon Demo
---------------------------------
+## How To Crush Your Hackathon Demo
 
 A fifteen minute speed pep-talk to help hackathon participants polish their presentations.
 Given at PennApps Data, September 2011. 
@@ -48,8 +62,7 @@ Install LibreOffice if you're true playa.
 
 
 
-Kicking the Tires with Google App Engine
---------------------------------
+## Kicking the Tires with Google App Engine
 
 A pragmatic introduction to Google App Engine for a Python audience.
 Given at PennApps, September 2011.
@@ -71,8 +84,7 @@ Install LibreOffice if you're awesome.
 Install a PDF viewer if you're not awesome.
 
 
-Crapping Rainbows with PhoneGap
---------------------------------
+## Crapping Rainbows with PhoneGap
 
 A technical evaluation of PhoneGap, a HTML5 mobile framework.
 Given at Williamsburg Tech Meetup, August 2011.
@@ -92,8 +104,7 @@ origins, current traction and reviews code examples to give an impression of via
 Install LibreOffice, yo!  Your mother will thank you.
 
 
-Writing Writable APIs the Write Way
------------------------------------
+## Writing Writable APIs the Write Way
 
 A introduction to Fluidinfo for a developer audience.  Brief explanation followed by live coding examples.
 Given to get a job at Twilio, August 2011.
@@ -110,8 +121,7 @@ A twenty minute introduction to an *awesome* data service called Fluidinfo, illu
 Awwwww yeah - install LibreOffice!
 
 
-Intro to Programming
----------------------------------------
+## Intro to Programming
 
 A two hour workshop for middle schoolers to learn basic programming concepts.
 Given for George Haines Microinterns program, June 2011
@@ -139,8 +149,7 @@ Given for George Haines' [MicroInterns](http://twitter.com/#!/microinterns) proj
 * Follow outline (microinterns_agenda.md) to demonstrate.
 
 
-Intro to LimeJS
---------------------------------
+## Intro to LimeJS
 
 A HTML5 framework for making 2D Games.
 Given at Game Hack Day, June 2011.
@@ -158,9 +167,7 @@ LimeJS is a Closure/Box2d based framework for making 2D games for browsers both 
 Download LibreOffice, snacky!
 
 
-
-Boxee for Hackers
---------------------------------------
+## Boxee for Hackers
 
 A quick technical intro for folks who want to hack on Boxee.
 Given innumerable times to anyone who would listen.
@@ -183,8 +190,7 @@ This Boxee app delivers Rob's talk given at hackathons and other developer centr
 </ol>
 
 
-Open Source Television
---------------------------------------
+## Open Source Television
 
 A talk about how Boxee gives and gets from FOSS.
 Given at SCaLE9x, January 2011.
