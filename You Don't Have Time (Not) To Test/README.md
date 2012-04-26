@@ -3,8 +3,7 @@
 A talk advocating for novice developers to learn automated testing early in
 their programming education.
 
-Given at [Hacking for Hustlers
-#4](http://www.meetup.com/Hacking-for-Hustlers/events/60823502/), April 2012.
+Given at [Hacking for Hustlers #4](http://www.meetup.com/Hacking-for-Hustlers/events/60823502/), April 2012.
 
 
 ## Outline
