@@ -95,7 +95,7 @@ Given at [Hacking for Hustlers #4](http://www.meetup.com/Hacking-for-Hustlers/ev
                 return "Hello world!"
 
             if __name__ == "__main__":
-                app.run(host='0.0.0.0', 5000)
+                app.run(host='0.0.0.0', port=5000)
             ```
 
         - How do we write a test for it? test_example.py
@@ -126,7 +126,7 @@ Given at [Hacking for Hustlers #4](http://www.meetup.com/Hacking-for-Hustlers/ev
                 return Welcome to Hacking for Hustlers 
 
             if __name__ == "__main__":
-                app.run(host='0.0.0.0', 5000)
+                app.run(host='0.0.0.0', port=5000)
             ```
 
         - `nosetests -v test_example.py`
@@ -143,7 +143,7 @@ Given at [Hacking for Hustlers #4](http://www.meetup.com/Hacking-for-Hustlers/ev
                 return "Welcome to Hacking for Hustlers"
 
             if __name__ == "__main__":
-                app.run(host='0.0.0.0', 5000)
+                app.run(host='0.0.0.0', port=5000)
             ```
 
         - `nosetests -v test_example.py`
