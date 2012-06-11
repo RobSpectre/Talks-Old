@@ -3,6 +3,7 @@
 A twenty minute presentation showing how Twilio customers are driving awareness
 and adoption of their mobile apps through SMS.
 
+
 ## Summary
 
 Twilio SMS is a super-simple, uber-effective tool for distributing your mobile
@@ -20,14 +21,28 @@ loop with a minimal amount of code.
 ## Outline
 
 - Mobile App Distribution via SMS
-    - Holy jeez is this talk going to be a lot of fun.
-    - In a fragmented mobile world, there is only one medium you can count on
-      all smart phones to have.
-    - 
+    - Holy biscuits is this talk going to be a lot of fun.
+    - If your game is mobile apps, I don't need to tell you how fragmented the
+      space is.
+    - The Venn diagrams showing which consumers have the endless combinations of
+      platform choices, firmware revisions, email clients, Facebook clients,
+      Twitter clients, browser capabilities, screen sizes and screen densities
+      produce more overlaying concentric circles than an Irish wake.
+    - But there is one way you can simply deliver your message to every
+      potential user of your mobile app.
+    - 97% of all US consumers have phones that can receive SMS.
+    - 100% of the consumers for your mobile application have SMS as well.
+    - Combine the ubiquitous access and the simple implementation, and SMS
+      quickly looks like a cheap, effective and easy way to distribute your
+      mobile application.
 - Introduction
     - Bio
     - Twilio
     - Mobile App Distribution
+        - How It Works
+        - Key Benefits
+        - Driving the Demand
+        - Case Studies
 - How It Works
     - Simple use case
         - Receive phone number through some lead gen mechanism.
@@ -36,7 +51,10 @@ loop with a minimal amount of code.
         - You log success of the invitation
         - Based on useragent, you redirect user to appropriate link in app
           store.
-    - 
+    - What it looks like to the end user
+        - Show it in action on Path's site
+    - Show some code
+        - Live code or show
 - Key Benefits
     - Certain Delivery
         - 97% market penetration of SMS
@@ -59,7 +77,7 @@ loop with a minimal amount of code.
         - Use case: Display number with CTA to the effect of "Text GIMME to
           55555 to get our app!"
         - Little pricey as short codes are needed to get real conversion.
-        - Works well in any IRL display creative (billboards, periodicals,
+        - Works well in any analog display creative (billboards, periodicals,
           events)
     - Outbound campaigns
         - Sent through a short code.
@@ -69,8 +87,9 @@ loop with a minimal amount of code.
 - Case Studies
     - Path
         - Crazy numbers - 300% increase in downloads
-        - 
-        - Tough to say how big a role SMS played here
+        - Experienced some pretty crazy growth, tough to say how big a role SMS
+          played here
+        - Can say with some confidence that it was a useful tool 
     - Belly
         - Doubled their downloads after introducing this feature to their
           website.
