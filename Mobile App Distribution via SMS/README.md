@@ -95,6 +95,10 @@ loop with a minimal amount of code.
           website.
         - 45 minute implementation - no further maintenance.
         - Lo-fi approach - bit.ly link for tracking, simple useragent handoff.
+    - Sidecar
+        - Neat ride sharing app that is application only
+        - Use the invite use case to verify phone numbers
+        - Kills two birds with one stone
 - Outro
     - Simple implementation
     - Afternoon you get a low-cost, bulletproof way to get your app in front of
