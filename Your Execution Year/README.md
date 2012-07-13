@@ -8,6 +8,11 @@ Given at Startup Festival 2012, Montreal Quebec.
 
 - Your Execution Year
     - This is you
+    - You're at the very base of what promises to be hockey stick growth
+    - You've upgraded from ramen to rice-a-roni
+    - No longer living hand to mouth after closing your Series A-B
+    - You have dozens of employees
+    - You have hundreds of customers
     - Post-Revenue
     - Pre-Profit
     - Time To Cowboy Up
@@ -29,10 +34,17 @@ Given at Startup Festival 2012, Montreal Quebec.
     - Sell At Scale
     - Stay Hungry
     - Fail Fast, Often and Small
-    - Focus on the Customer
+    - Obsess over the Customer
 - Description
     - What It Is
+        - Growing, not building
+        - Product / market fit should already be snug
+        - The strategy is proven at small scale
+        - Now executing on it is the paramount objective
     - What It Isn't
+        - Pivot o' clock
+        - Product identity is finished
+        - You more or less have the tools you need to succeed
 - Hire Like Hell
     - The inflection point
         - Your team now eclipses you in terms of impact
@@ -61,7 +73,7 @@ Given at Startup Festival 2012, Montreal Quebec.
             - Training - the 101 model
             - Everyone gets the product experience
         - Distance is lethal
-            - Spectre Corollary - the number of shipped bugs is directly
+            - Spectre Corollary - the number of bugs you ship is directly
               proportional to the distance in feet between your engineering and
               QA / Support organizations.
             - Embed QA onto engineering teams
@@ -94,10 +106,12 @@ Given at Startup Festival 2012, Montreal Quebec.
             - 50:50 analytical and soft skills
             - Your PR has a shelf life - squeeze every drop you can out of this year
 - Stay Hungry
+    - It is easier to spend the next ten million than the first
     - Pro tips
         - Easy money savers
             - Save the miles - fly coach
-            -  
+            - Plug the leaks quarterly
+            - Renegotiate unapologetically
         - Go Cloud-Powered
             - Seems a bit self-serving, but it's true
             - Find every opportunity to pay-as-you-go
@@ -107,7 +121,9 @@ Given at Startup Festival 2012, Montreal Quebec.
         - Spend smart
             - Developer time has succeeded the American dollar as the most
               precious resource a startup can have
-            - Always invest in speeding up your engineering team
+            - Always invest in speeding up your engineering team - and I don't
+              mean Aeron chairs.  Tools, gear, and great hardware.
+            - Don't be gimmicky about comp
 - Fail Fast, Often and Small
     - Learn from the cloud
         - One important architectural technique for distributed systems is the
@@ -115,11 +131,17 @@ Given at Startup Festival 2012, Montreal Quebec.
         - If contacting an external resource, your code should fail reasonably
           quickly and handle that failure gracefully
     - Same goes for your business
-        - New initiatives
+        - Limit scope and resources on new initiatives
+        - Instrument everything with a feedback mechanism of some kind
+        - Dispassionately ditch anything that doesn't drive huge growth -
+          average performance is the enemy
     - Pro tips
         - Continuous Integration
+            - Release small changes as often as possible
+            - Keep the main development branch (aka master or trunk) in a
+              releasable state
             - Easier on the web than on mobile devices
-        - Beware the product rearch / redesign
+        - Beware the product re-arch / redesign
             - How many do you remember went well last year?
             - How many didn't?
             - Some guy who looks a lot like me is going to walk up to you, talk
@@ -128,7 +150,7 @@ Given at Startup Festival 2012, Montreal Quebec.
             - Everyone maligns PHP, but look at Facebook, Tumblr and Pinterest
             - Programming language is one of the least important factors to
               scaling your architecture - focus on scaling your business
-- Focus on the Customer 
+- Obsess over the Customer 
 - Conclusions
     - Buy your 30th employee a beer.  He/she probably has a few insights your
       startup could use.
