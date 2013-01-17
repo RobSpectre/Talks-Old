@@ -101,7 +101,6 @@ Revised for [Take Off Conference](http://www.takeoffconf.com), January 2013.
         - It is one thing to build an API, it is another to build a product
         - Talk Outline
             - What differentiates a product from a service
-            - How a productized API is different from a service
             - How difficult it is to make an API product
             - Why oriented your architecture around products makes a better codebase
 - An API != Product
@@ -166,5 +165,6 @@ Revised for [Take Off Conference](http://www.takeoffconf.com), January 2013.
     - The productized API design pattern is fundamentally stronger than the 
       service design pattern
     - Making services externalizable creates strong debt-free architectures
+    - Those architectures are better suited for cloud-based deployments
     - And, in the case of Amazon, this bold architectural choice created an
       entire additional business line that changed the way we work on the web.
