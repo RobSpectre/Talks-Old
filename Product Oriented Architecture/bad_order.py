@@ -1,4 +1,4 @@
-class OrderMaker(object):
+class Order(object):
     def __init__(self):
         self.items = [] 
 
@@ -16,7 +16,7 @@ class OrderMaker(object):
     def update_item(self, item):
         for existing_item in self.items:
             if item == existing_item:
-                self.items.remove(existing_tiem)
+                self.items.remove(existing_item)
                 self.items.insert(item)
                 return True
         return False
