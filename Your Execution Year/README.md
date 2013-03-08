@@ -61,17 +61,17 @@ Given at Startup Festival 2012, Montreal Quebec.
             - Place it at paramount importance
             - The only thing more expensive than hiring a good developer is
               hiring a bad developer
+        - Make your culture the best product you ship 
+            - Product-level investment
+            - Work hard, play hard
+            - Training - the 101 model
+            - Everyone gets the product experience
         - Small teams with big responsibilities
             - Technical people love to ship
             - Product / feature level responsibility owned end-to-end
             - Give them full ownership - large QA teams == worse software
             - No matter what the methodology, they are shipping new code every
               two weeks
-        - Make your culture the best product you ship 
-            - Product-level investment
-            - Work hard, play hard
-            - Training - the 101 model
-            - Everyone gets the product experience
         - Distance is lethal
             - Spectre Corollary - the number of bugs you ship is directly
               proportional to the distance in feet between your engineering and
@@ -118,7 +118,7 @@ Given at Startup Festival 2012, Montreal Quebec.
             - Capex is the enemy
             - Every dollar in hardware is three in maintenance - Total Cost of
               Ownership is your new mantra
-        - Spend smart
+        - Spend smartly on speed
             - Developer time has succeeded the American dollar as the most
               precious resource a startup can have
             - Always invest in speeding up your engineering team - and I don't
