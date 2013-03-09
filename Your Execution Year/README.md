@@ -16,7 +16,11 @@ Given at Startup Festival 2012, Montreal Quebec.
     - Post-Revenue
     - Pre-Profit
     - Time To Cowboy Up
-    - The unglamourous work begins
+    - Everyone talks about begging for change.
+    - Everyone talks about the successful exit.
+    - No one talks about what is in between - everyone wants to be the cowboy;
+      no one wants to clean the stall.
+    - And that is your execution year.
 - Bio
     - Who am I?  I'm your 30th employee
     - Name and Position
@@ -73,12 +77,17 @@ Given at Startup Festival 2012, Montreal Quebec.
             - No matter what the methodology, they are shipping new code every
               two weeks
         - Distance is lethal
-            - Spectre Corollary - the number of bugs you ship is directly
+            - Spectre's Law - the number of bugs you ship is directly
               proportional to the distance in feet between your engineering and
               QA / Support organizations.
             - Embed QA onto engineering teams
-            - Saying you don't have enough time for automated testing is saying
-              you have enough time for making the same mistake over and over
+            - Features determine which customers you get; bugs determine which
+              customers you keep.
+            - The shortest distance between two points is zero.
+            - Especially if you subscribe to the lean startup school, you've
+              racked up a load of technical debt that needs to get paid down.
+            - What kills you this year is not the mistakes you make, it's the
+              mistakes you make twice.
 - Sell at Scale
     - The part no one writes about
         - Wow - that Steve Jobs sure had a great conversion rate
@@ -95,6 +104,7 @@ Given at Startup Festival 2012, Montreal Quebec.
             - Works in good times and bad, and scalable for your business
             - Consistency is rewarded over blowout quarters 
             - Get an experience hand to do this early - do *not* change it
+              mid-quarter
         - One head of sales
             - Inside, outside and channel all report to the same person
             - That person is not the CEO
@@ -124,6 +134,7 @@ Given at Startup Festival 2012, Montreal Quebec.
             - Always invest in speeding up your engineering team - and I don't
               mean Aeron chairs.  Tools, gear, and great hardware.
             - Don't be gimmicky about comp
+            - Pony rides metaphor
 - Fail Fast, Often and Small
     - Learn from the cloud
         - One important architectural technique for distributed systems is the
@@ -137,6 +148,9 @@ Given at Startup Festival 2012, Montreal Quebec.
           average performance is the enemy
     - Pro tips
         - Continuous Integration
+            - Important thing here to remember is that this is a journey, not a
+              destination.  You are never done making your release process
+              better.
             - Release small changes as often as possible
             - Keep the main development branch (aka master or trunk) in a
               releasable state
@@ -152,6 +166,9 @@ Given at Startup Festival 2012, Montreal Quebec.
               scaling your architecture - focus on scaling your business
 - Obsess over the Customer 
 - Conclusions
+    - Your execution year is the next stage in your startup and like all things
+      in this no-sleep circus, you have to adjust.
+    - Five keys to help get through.
     - Buy your 30th employee a beer.  He/she probably has a few insights your
       startup could use.
 
