@@ -12,10 +12,10 @@ framework for Python.
     - Django experience
     - Agenda
         - Why Django for prototyping?
-        - Environment setup
-        - Project setup
-        - Testing
+        - Development
+        - Deployment
         - My Favorite Reusable Apps
+        - Testing
 - What is rapid prototyping?
     - Prototypes are sketches in code
     - More useful than mockups because you compel key UX and 
@@ -38,34 +38,33 @@ framework for Python.
         - Django's biggest strength is the community around it.
         - Enormous wealth of reusable apps
         - Strong leadership
-- Environment Setup
-    - Development
-        - Starter Projects
-            - Danny and Audrey's Two Scoops project
-                - Chapter 2 of their book goes over the optimal environment
-                  setup
-                - So optimal in fact, they generously make it available as a
-                  [github
-                  repo](https://github.com/twoscoops/django-twoscoops-project).
-                - One bit I would add is a Procfile and Makefile.  Foreman is a
-                  gem, I know, but it is ridiculously useful.
-            - [playdoh](https://github.com/mozilla/playdoh) by Mozilla
-                - All the things included.
-                - Secure by default - SHA-512 pass hashing, secure cookies,
-                  bleach and django-session-csrf built-in
-                - Some cons: based on Django 1.3, jinja2 templating.
-        - Static files
-            - Just use django.contrib.staticfiles
-            - FileSystemFinder
-            - AppDirectoriesFinder
-            - Add ./manage.py collectstatic to your Makefile
-    - Deployment
-        - Heroku - cheap, fast and easy.  Hard to justify any devops time on a
-          prototype, even harder actual developer time.
-        - Manuel Franco's [Chef
-          recipe](https://github.com/maigfrga/chef-django-ubuntu)
-        - Barry Morrison's [Salt
-          States for fully featured Django stack](https://github.com/esacteksab/salt-states)
+- Development
+    - Starter Projects
+        - Danny and Audrey's Two Scoops project
+            - Chapter 2 of their book goes over the optimal environment
+              setup
+            - So optimal in fact, they generously make it available as a
+              [github
+              repo](https://github.com/twoscoops/django-twoscoops-project).
+            - One bit I would add is a Procfile and Makefile.  Foreman is a
+              gem, I know, but it is ridiculously useful.
+        - [playdoh](https://github.com/mozilla/playdoh) by Mozilla
+            - All the things included.
+            - Secure by default - SHA-512 pass hashing, secure cookies,
+              bleach and django-session-csrf built-in
+            - Some cons: based on Django 1.3, jinja2 templating.
+    - Static files
+        - Just use django.contrib.staticfiles
+        - FileSystemFinder
+        - AppDirectoriesFinder
+        - Add ./manage.py collectstatic to your Makefile
+- Deployment
+    - Heroku - cheap, fast and easy.  Hard to justify any devops time on a
+      prototype, even harder actual developer time.
+    - Manuel Franco's [Chef
+      recipe](https://github.com/maigfrga/chef-django-ubuntu)
+    - Barry Morrison's [Salt
+      States for fully featured Django stack](https://github.com/esacteksab/salt-states)
 - My Favorite Reusable Apps and Other Tricks
     - RESTful API
         - tastypie
@@ -121,5 +120,14 @@ framework for Python.
               reducing dev / deploy complexity
             - Heroku does have a Celery add-on, but you're going to want to get
               good at this.
-    - 
     - AngularJS 
+        - Nevermind the JS framework - it ships with a neat JS testrunner called
+          Testacular.
+        - Super easy way to do e2e testing without a Selenium rig.
+        - Like Django, just use what you want.
+- Conclusions
+    - Let us learn from Rear Admiral David Farragut - sometimes you just got to
+      plow through.
+    - Prototyping is the best way to do that.
+    - Django is the best at prototyping.
+    - And Django is best because of you.
