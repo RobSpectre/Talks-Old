@@ -10,7 +10,7 @@ Given at [hackNY](http://www.hackny.org) Fall 2013 Hackathon.
 - Intro
 - Agenda
     - Common Concepts
-    - API Review
+    - API Landscape 
     - Useful Tools
     - Questions
 - Common Concepts
@@ -55,11 +55,11 @@ Given at [hackNY](http://www.hackny.org) Fall 2013 Hackathon.
             - PHP: SimpleXML
             - Ruby: Nokogiri
             - node.js: xml2js
-- API Review
+- API Landscape 
     - Twilio
     - SendGrid
     - Pusher
-    - Opentok
+    - Opento
     - Echo Nest
     - Google Maps
     - Mashery
@@ -70,7 +70,7 @@ Given at [hackNY](http://www.hackny.org) Fall 2013 Hackathon.
           on the web.
         - If you are doing anything other than calling a GET or a POST method,
           there is likely an easier way.
-    - Helper libraries
+    - Plan B: HTTP Client libraries 
         - Python: Requests.
         - .NET: RestSharp
         - Ruby: HTTParty
@@ -99,11 +99,11 @@ Given at [hackNY](http://www.hackny.org) Fall 2013 Hackathon.
         - Postman
         - Requestbin / Runscope
         - Charles
-    - Bootstrap alternatives
+    - Design Tools
         - Foundation
         - InK
         - Bourbon Neat
-    - PaaS
+    - Deploy Tools
         - Heroku / Nodejitsu
             - Fastest way to get something on the internet.
             - Heroku has support for Ruby, Python, Java and Node (but no
