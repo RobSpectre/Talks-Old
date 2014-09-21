@@ -112,7 +112,7 @@ experienced Android developers.
             - Provides the connectivity and persistance
             - Can sync objects, messages, and blobs between app and Wear through
               DataLayer
-        - Two types of apps
+        - Two types of integration 
             - Android apps with Wear support
             - Wear apps that actually run on the wearable itself
             - Including the support for the former takes at most an afternoon
@@ -123,7 +123,9 @@ experienced Android developers.
             - Persistent display can only be done through a notification
             - Users find and install apps from the handset or the web, not on
               the watch - important for distribution
-            - Lot of the API is unavailable - notably no webkit.
+            - Some of the API is unavailable - notably no webkit.
+            - You can use hasSystemFeature() to see if an API is supported on
+              the device
         - Getting Started
             - Need rev20 of the v4 support library that was released in July
             - Comes with all the extensions for wearables, mostly with
@@ -138,11 +140,74 @@ experienced Android developers.
             - Single press action like archive / favorite / star / delete
             - Free form input with speech recognition
         - Implementation
-            - You're going to need rev20 of the v4 support library.
-            - Kinda worth the upgrade just for the improved SwipeRefreshLayout.
-            - NotificationCompat 
-- Promising Hacks
-    - [Wear Camera](https://github.com/dheera/android-wearcamera/)
-    - [Expense Tracker](https://play.google.com/store/apps/details?id=lv.bestan.android.wear.expensestracker&hl=en)
-    - 
+            - Use NotificationCompat to build notifications and they show on the
+              wearable.
+        - Additional actions can be provided
+            - use addAction() to the builder to add multiple actions to the
+              notification
+            - They are accessed by the user by swiping left
+            - Demonstration using ic_map drawable
+        - Customizing output for the wearable
+            - Available using the WearableExtender
+            - Actions added using WearableExtender only appear on the wearable
+    - Apps
+        - Setup AVD
+            - Emulator is still way buggy
+            - Most of your development you're going to want to do debugging over
+              Bluetooth
+            - AVD only available in Android Studio
+            - Does have square and round faces to glance at layouts
+            - Much like Android of old, you'll want to have the hardware handy
+        - Layout
+            - Notifications is the only persistence on the device
+            - There is an unofficial library for creating your own in app
+              layouts
+            - Includes a BoxInsetLayout, and some activities and views to build
+              your interface.
+            - Has broken a few times already - Google makes no guarantee on
+              compatibility
+        - Voice Input
+            - This is the most useful part of actually going to the trouble of
+              packaging an app
+            - You can declare intents for the system voice commands like "take a
+              note" or "call a car"
+            - Or you can create actions for voice input and handle with a
+              callback
+        - Packaging
+            - Ultimately, the wear app must be bundled with a handset app for
+              the user to install.
+            - Wear users can't browse and install apps from the watch itself, it
+              is done through the handset and Play Store
+            - Packaging is pretty simple - just declare the wearable app as a
+              dependency in Gradle.
+    - Data Layer
+        - Overview
+            - Syncing is managed through the Data Layer API that comes with Play
+              Services
+            - You can sync Data Items, Messages and Assets.
+            - Accessible to the app through listeners
+            - Disconnects and syncs are handled by the Data Layer - you don't
+              have to worry about it
+        - Creating Events
+            - Uses Wearable.DataApi on the handset to relay to wearable
+            - Accepts DataItems, Messages and Assets.
+            - Example of datamap
+        - Listener
+            - Can do sync and async waiting
+            - Available through WearableListenerService()
+            - You can listen for onDataChanged(), onMessageReceived(), on
+              disconnect and connect.
+        - Other types
+            - Assets and Messages work much the same way
+            - Assets are blobs like images
+            - Be wary of image size.
+- Conclusions
+    - The smatch is not there yet.
+    - But that's actually a good thing for developers - the future of this
+      device is what we make it.
+    - Promising Hacks
+        - [Wear Camera](https://github.com/dheera/android-wearcamera/)
+        - [Expense Tracker](https://play.google.com/store/apps/details?id=lv.bestan.android.wear.expensestracker&hl=en)
+    - If this thing is going to make it, it is going to be because of you.
+    - But I'm still waiting on my jetpack.
 
