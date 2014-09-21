@@ -28,6 +28,8 @@ experienced Android developers.
         - It's connected to the Internet, it's an open platform I can hack on,
           and wonder of wonders, they were handing them out - for *free* - at
           Google I/O!
+        - I walked out of there thinking, "Yo - you need to see the future?
+          Well let me just consult my *wrist*."
         - I tell you all this because you need to understand, I was the most
           enthusiastic supporter of the smart watch before they were released
           this summer.
@@ -72,7 +74,12 @@ experienced Android developers.
             - Developing on Wear
             - Resources and Tricks
             - Conclusions
-- Usability
+- Device
+    - Overview
+        - Not a stand alone watch
+        - Married to your handset
+        - Communicates over bluetooth
+        - Apps serve as clients to the handset
     - UX
         - Driven by notification cards - very familiar to Glass users
         - Interaction is swipe / single button
