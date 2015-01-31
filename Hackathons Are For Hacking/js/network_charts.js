@@ -158,7 +158,7 @@ function advanceNetworkChart(event) {
                 width: 5 
             });
             slide.network_chart.zoomExtent();
-        }, 800);
+        }, 400);
         slide.interval = interval;
     } else if (event.fragment.id == "network-chart-hacking-stop-network") {
         clearInterval(slide.interval);
