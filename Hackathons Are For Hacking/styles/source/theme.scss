@@ -1,0 +1,91 @@
+/**
+ * Black theme for reveal.js. This is the opposite of the 'white' theme.
+ *
+ * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
+ */
+
+
+// Default mixins and settings -----------------
+@import "bower_components/reveal.js/css/theme/template/mixins";
+@import "bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #2d2c2a;
+$headingColor: #2d2c2a;
+
+$mainFontSize: 38px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #e22228;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.3em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+
+// Theme template ------------------------------
+@import "bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+.reveal section {
+    height: 100%;
+}
+
+.reveal h1 {
+    background: $linkColor;
+    color: $backgroundColor;
+    width: 100%;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: -0.2em;
+}
+
+.reveal img.unstyled {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.reveal .bio {
+	margin: 15px 0px;
+	background: rgba(255,255,255,0.9);
+	border: 4px solid $mainColor;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.reveal .bio h3, .reveal .bio h4 {
+    text-transform: none;
+}
+
+.reveal .headline {
+    background: none;
+    top: 40%;
+}
+
+.reveal .chart {
+    margin-left: 0;
+    width: 100%;
+    height: 85%;
+}

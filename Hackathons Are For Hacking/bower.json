@@ -1,0 +1,24 @@
+{
+  "name": "twilio-presentation",
+  "version": "0.0.1",
+  "authors": [
+    "Rob Spectre <rob.spectre@gmail.com>"
+  ],
+  "description": "Another well-rehearsed talk from Twilio.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "http://www.brooklynhacker.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~3.0.0",
+    "highcharts": "~4.0.4",
+    "vis": "~3.8.0"
+  }
+}
