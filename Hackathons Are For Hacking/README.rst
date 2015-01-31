@@ -186,8 +186,6 @@ Outline
 
   - Live coding demos
 
-  - Technical gates on freebie distribution
-
   - What is the common element? You have to *keep* hacking.
 
   - Any time you're hacking, we're here to serve you.

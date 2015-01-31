@@ -1,31 +1,169 @@
 function advanceNetworkChart(event) {
     var slide = Reveal.getCurrentSlide();
-    if (event.fragment.id == "network-chart") {
+    if (event.fragment.id == "network-chart-intro") {
         createNetworkChart(event);
-        addNodes(50, 'developer');
-    } else if (event.fragment.id == "network-chart-add-twilio") {
+        addNodes(100, 'developer');
+    } else if (event.fragment.id == "network-chart-intro-add-twilio") {
         addTwilio(); 
-    } else if (event.fragment.id == "network-chart-add-devangels") {
-        addDevangels();
+    } else if (event.fragment.id == "network-chart-intro-add-devangel") {
+        addDevangel("Rob");
         slide.network_chart.zoomExtent();
-    } else if (event.fragment.id == "network-chart-activate-devangels") {
+    } else if (event.fragment.id == "network-chart-intro-activate-devangel") {
         var interval = setInterval( function() {
-            for (i=0; i < slide.devangels.length; i++) {
-                var random_id = randomIntegerBetweenValues(0, slide.node_index);
-                slide.edges.add({
-                    from: random_id,
-                    to: slide.devangels[i], 
-                });
-                slide.edges.add({
-                    from: random_id,
-                    to: 'Twilio',
-                });
-            }
+            var random_id = randomIntegerBetweenValues(0, slide.node_index);
+            slide.edges.add({
+                from: random_id,
+                to: 'Rob', 
+            });
+            slide.edges.add({
+                from: random_id,
+                to: 'Twilio',
+            });
             slide.network_chart.zoomExtent();
+        }, 200);
+        slide.interval = interval;
+    } else if (event.fragment.id == "network-chart-intro-stop-devangel") {
+        clearInterval(slide.interval);
+        slide.network_chart.focusOnNode('Twilio', {scale: 0.8});
+    } else if (event.fragment.id == "network-chart-awareness") {
+        createNetworkChart(event);
+        addNodes(100, 'developer');
+    } else if (event.fragment.id == "network-chart-awareness-add-twilio") {
+        addTwilio(); 
+    } else if (event.fragment.id == "network-chart-awareness-add-devangel") {
+        addDevangel("Rob");
+        slide.network_chart.zoomExtent();
+    } else if (event.fragment.id == "network-chart-awareness-activate-twilio") {
+        slide.aware_edges = [];
+        for (i=0; i < slide.node_index; i++) {
+            edge = slide.edges.add({
+                from: i,
+                to: 'Twilio',
+            });
+            slide.aware_edges.push(edge);
+        }
+        var interval = setInterval( function() {
+            var random_edge = randomIntegerBetweenValues(0, slide.aware_edges.length);
+            edge = slide.aware_edges[random_edge];
+            slide.edges.remove(edge);
+        }, 200);
+        slide.interval = interval;
+    } else if (event.fragment.id == "network-chart-awareness-zoom-twilio") {
+        clearInterval(slide.interval);
+        slide.network_chart.focusOnNode('Twilio', {scale: 0.8});
+    } else if (event.fragment.id == "network-chart-awareness-zoom-out") {
+        slide.network_chart.zoomExtent();
+    } else if (event.fragment.id == "network-chart-awareness-zoom-devangel") {
+        slide.network_chart.focusOnNode('Rob', {scale: 0.8});
+    } else if (event.fragment.id == "network-chart-giveaway") {
+        createNetworkChart(event);
+        addNodes(100, 'developer');
+    } else if (event.fragment.id == "network-chart-giveaway-add-twilio") {
+        addTwilio(); 
+    } else if (event.fragment.id == "network-chart-giveaway-add-devangel") {
+        addDevangel("Rob");
+        slide.network_chart.zoomExtent();
+    } else if (event.fragment.id == "network-chart-giveaway-activate-devangel") {
+        interested = slide.node_index * 0.25
+        slide.interested_nodes = []
+        slide.interested_edges = []
+        for (i=0; i < interested; i++) {
+            edge = slide.edges.add({
+                from: i,
+                to: 'Rob',
+            });
+            slide.interested_nodes.push(i);
+            slide.interested_edges.push(edge);
+        }
+        var interval = setInterval( function() {
+            var random_node = randomIntegerBetweenValues(0, slide.interested_nodes.length);
+            node = slide.interested_nodes[random_node];
+            slide.edges.add({
+                from: node,
+                to: 'Twilio'
+            });
         }, 1000);
         slide.interval = interval;
-    } else if (event.fragment.id == "network-chart-stop-devangels") {
+        slide.network_chart.focusOnNode('Rob', {scale: 0.5});
+    } else if (event.fragment.id == "network-chart-giveaway-stop-devangel") {
         clearInterval(slide.interval);
+        slide.network_chart.focusOnNode('Rob', {scale: 0.8});
+    } else if (event.fragment.id == "network-chart-giveaway-winner") {
+        var random_node = randomIntegerBetweenValues(0, slide.interested_nodes.length);
+        slide.winner = slide.interested_nodes[random_node];
+        slide.edges.add({
+            from: slide.winner,
+            to: 'Rob',
+            color: 'red',
+            width: 10
+        });
+    } else if (event.fragment.id == "network-chart-giveaway-winner-side-effect") {
+        slide.edges.add({
+            from: slide.winner,
+            to: 'Twilio',
+            width: 5
+        });
+    } else if (event.fragment.id == "network-chart-giveaway-loser") {
+        for (i=0; i < slide.interested_edges.length; i++) {
+           slide.edges.remove(slide.interested_edges[i]);
+        }
+    } else if (event.fragment.id == "network-chart-giveaway-zoom-twilio") {
+        slide.network_chart.focusOnNode('Twilio', {scale: 0.8});
+    } else if (event.fragment.id == "network-chart-giveaway-zoom-out") {
+        slide.network_chart.zoomExtent();
+    } else if (event.fragment.id == "network-chart-hacking") {
+        createNetworkChart(event);
+        addNodes(100, 'developer');
+    } else if (event.fragment.id == "network-chart-hacking-add-twilio") {
+        addTwilio(); 
+    } else if (event.fragment.id == "network-chart-hacking-add-devangel") {
+        addDevangel("Rob");
+        slide.network_chart.zoomExtent();
+    } else if (event.fragment.id == "network-chart-hacking-activate-devangel") {
+        slide.network_chart.focusOnNode('Rob', {scale: 0.6});
+        slide.networked_nodes = [];
+        var interval = setInterval( function() {
+            var random_id = randomIntegerBetweenValues(0, slide.node_index);
+            slide.edges.add({
+                from: random_id,
+                to: 'Rob', 
+                color: 'red',
+                width: 10
+            });
+            slide.networked_nodes.push(random_id);
+            slide.edges.add({
+                from: random_id,
+                to: 'Twilio',
+                width: 5 
+            });
+        }, 1200);
+        slide.interval = interval;
+    } else if (event.fragment.id == "network-chart-hacking-stop-devangel") {
+        clearInterval(slide.interval);
+        slide.network_chart.focusOnNode('Twilio', {scale: 0.7});
+    } else if (event.fragment.id == "network-chart-hacking-network") {
+        var interval = setInterval( function() {
+            var random_id = randomIntegerBetweenValues(0, slide.node_index);
+            var random_networked_node = randomIntegerBetweenValues(0, slide.networked_nodes.length);
+            slide.edges.add({
+                from: random_networked_node,
+                to: random_id, 
+                color: 'blue',
+                width: 5
+            });
+            slide.edges.add({
+                from: random_id,
+                to: 'Twilio',
+                color: 'blue',
+                width: 5 
+            });
+            slide.network_chart.zoomExtent();
+        }, 800);
+        slide.interval = interval;
+    } else if (event.fragment.id == "network-chart-hacking-stop-network") {
+        clearInterval(slide.interval);
+    } else if (event.fragment.id == "network-chart-hacking-zoom-twilio") {
+        slide.network_chart.focusOnNode('Twilio', {scale: 0.4});
     } else {
         console.log(event.fragment.id);
     }
@@ -170,20 +308,32 @@ function addTwilio() {
     });
 }
 
-function addDevangels() {
-    var slide = Reveal.getCurrentSlide();
-    slide.devangels = ['Devin', 'Carter', 'Greg', 'Brent', 'Ricky', 'Matt', 'Marcos', 'Phil', 'Tony', 'Eva'];
-
+function addDevangel(name) {
+    var slide = Reveal.getCurrentSlide(); 
     var twilio_node = slide.network_chart.getPositions('Twilio').Twilio;
-    for (i=0; i < slide.devangels.length; i++) {
-        var length = randomIntegerBetweenValues(700, 900);
-        var coordinates = calculateRandomLocationBasedOnVector(twilio_node, length);
-        slide.nodes.add({
-            id: slide.devangels[i],
-            x: coordinates.x,
-            y: coordinates.y,
-            group: 'devangel'
-        });
+
+    var length = randomIntegerBetweenValues(700, 900);
+    var coordinates = calculateRandomLocationBasedOnVector(twilio_node, length);
+
+    slide.nodes.add({
+        id: name,
+        x: coordinates.x,
+        y: coordinates.y,
+        group: 'devangel'
+    });
+
+    if (slide.devangels == undefined) {
+        slide.devangels = [name];
+    } else {
+        slide.push(name);
+    }
+}
+
+function addDevangels() {
+    devangels = ['Devin', 'Carter', 'Greg', 'Brent', 'Ricky', 'Matt', 'Marcos', 'Phil', 'Tony', 'Eva'];
+
+    for (i=0; i < devangels.length; i++) {
+        addDevangel(devangels[i]);
     }
 }
 
