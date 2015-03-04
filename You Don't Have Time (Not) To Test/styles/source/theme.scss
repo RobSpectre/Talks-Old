@@ -1,0 +1,125 @@
+/**
+ * Twilio theme for Reveal.js
+ *
+ * Written by Rob Spectre, 2015.
+ */
+
+
+// Default mixins and settings -----------------
+@import "bower_components/reveal.js/css/theme/template/mixins";
+@import "bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: #2d2c2a;
+$headingColor: #2d2c2a;
+
+$mainFontSize: 38px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: #e12127;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.3em;
+$heading2Size: 1.6em;
+$heading3Size: 1.3em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #222;
+	}
+}
+
+
+// Theme template ------------------------------
+@import "bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+
+.reveal section {
+    height: 100%;
+}
+
+.reveal .stretch {
+    display: block;
+}
+
+.reveal h1 {
+    background: $linkColor;
+    color: $backgroundColor;
+    width: 100%;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: -0.2em;
+}
+
+.reveal img.unstyled {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.reveal .bio {
+    margin-top: 1em;
+    padding-top: 0.5em;
+	background: rgba(255,255,255,0.9);
+	border: 4px solid $mainColor;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.reveal .bio h3, .reveal .bio h4 {
+    text-transform: none;
+}
+
+.reveal .headline {
+    background: none;
+    top: 40%;
+}
+
+.reveal .chart {
+    margin: 0;
+    height: 85%;
+}
+
+.fragment.chart {
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.reveal .map {
+    height: 90%;
+}
+
+.reveal .map img {
+    max-height: none;
+    max-width: none;
+    box-shadow: none;
+    border: none;
+}
+
+html.img-right div.slide-background.present {
+  background-position: right center;}
+
+html.img-left div.slide-background.present {
+  background-position: left center;}
+
+html.img-bottom div.slide-background.present {
+  background-position: bottom;}
+
+html.img-top div.slide-background.present {
+  background-position: top;}
