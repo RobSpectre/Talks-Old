@@ -20,7 +20,7 @@ function processChartSlide(currentSlide) {
             data = {
                 columns: generateChartData(),
                 type: type,
-                x: 'x',
+                x: 'Date',
             };
         }
     }
@@ -36,7 +36,7 @@ function processChartSlide(currentSlide) {
                 data = {
                     columns: JSON.parse(data),
                     type: type,
-                    x: 'x'
+                    x: 'Date'
                 };
             }
         } catch (e) {
@@ -49,7 +49,7 @@ function processChartSlide(currentSlide) {
                 data = {
                     url: data,
                     type: type,
-                    x: 'x'
+                    x: 'Date'
                 };
             }
         }

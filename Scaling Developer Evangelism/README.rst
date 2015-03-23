@@ -75,7 +75,7 @@ Outline
 
     - Right now, Evans says there are 4.6M developers in the United States
 
-    - Constituting 18.6M developers on the planet.
+    - Constituting 18.2M developers on the planet.
 
     - The number of people affected by the software that they write is so
       disproportionate it is *dizzying*.
@@ -422,14 +422,6 @@ Outline
               are a reasonable measurement of the network effect we're trying to
               create.
 
-          - There are not many BI tools that are valuable
-
-            - Contract resources to build for you - they are worth 10x their
-              price
-
-            - `Looker`_ is becoming popular, but most BI tools require a similar
-              investment in training
-
         - Good numbers are better than perfect numbers - YoY growth for most of
           your metrics will tell you a lot.
 
@@ -602,7 +594,7 @@ Outline
         anything in developer relations.  You will never achieve scale without
         intentional, comprehensive training. 
 
-- Common Scale Mistakes 
+- Common Problems 
 
     - Personnel
 
