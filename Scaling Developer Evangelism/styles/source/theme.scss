@@ -1,0 +1,189 @@
+/**
+ * Twilio theme for Reveal.js
+ *
+ * Written by Rob Spectre, 2015.
+ */
+
+
+// Default mixins and settings -----------------
+@import "bower_components/reveal.js/css/theme/template/mixins";
+@import "bower_components/reveal.js/css/theme/template/settings";
+// ---------------------------------------------
+
+
+// Include theme-specific fonts
+@import url(../bower_components/reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
+
+// Twilio Colors
+
+$twilioRed: #e12127;
+$twilioMaroon: #971d1f;
+$twilioGray: #2c2c2a;
+$twilioBlack: #231f20;
+$twilioBrown: #b1aca0;
+$twilioBeige: #dbddd7;
+$twilioBlue: #54c3c2;
+
+
+// Override theme settings (see ../template/settings.scss)
+$backgroundColor: #fff;
+
+$mainColor: $twilioGray;
+$headingColor: $twilioGray;
+
+$mainFontSize: 38px;
+$mainFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingFont: 'Source Sans Pro', Helvetica, sans-serif;
+$headingTextShadow: none;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingFontWeight: 600;
+$linkColor: $twilioRed;
+$linkColorHover: lighten( $linkColor, 15% );
+$selectionBackgroundColor: lighten( $linkColor, 25% );
+
+$heading1Size: 2.3em;
+$heading2Size: 2.3em;
+$heading3Size: 1.9em;
+$heading4Size: 1.0em;
+
+section.has-light-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: $mainColor;
+	}
+}
+
+section.has-dark-background {
+	&, h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+
+
+// Theme template ------------------------------
+@import "bower_components/reveal.js/css/theme/template/theme";
+// ---------------------------------------------
+
+
+// Slide size and background
+.reveal section {
+    height: 100%;
+}
+
+.reveal .red {
+    background-color: $twilioRed;
+}
+
+.reveal .gray {
+    background-color: $twilioGray;
+}
+
+.reveal .maroon {
+    background-color: $twilioMaroon;
+}
+
+.reveal .black {
+    background-color: $twilioBlack;
+}
+
+.reveal .brown {
+    background-color: $twilioBrown; 
+}
+
+.reveal .beige {
+    background-color: $twilioBeige;
+}
+
+.reveal .blue {
+    background-color: $twilioBlue;
+}
+
+.reveal h1 {
+    text-align: center;
+    background: $linkColor;
+    color: #fff;
+    width: 100%;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: -0.2em;
+}
+
+.reveal img.unstyled {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+.reveal .title h3 {
+    font-size: 1.6em;
+    margin-bottom: -0.1em;
+}
+
+.reveal .bio {
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    padding-top: 0.5em;
+	background: rgba(255,255,255,0.9);
+	border: 4px solid $mainColor;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+.reveal .bio h3, .reveal .bio h4 {
+    color: $mainColor;
+    text-transform: none;
+}
+
+.reveal .headline {
+    background: none;
+    height: 100%;
+    /* Internet Explorer 10 */
+    display:-ms-flexbox;
+    -ms-flex-pack:center;
+    -ms-flex-align:center;
+    /* Firefox */
+    display:-moz-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+    /* Safari, Opera, and Chrome */
+    display:-webkit-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+    /* W3C */
+    display:box;
+    box-pack:center;
+    box-align:center;
+}
+
+.reveal .chart, .reveal .network, .reveal .map {
+    margin: 0;
+    height: 85%;
+}
+
+.fragment.chart, .fragment.network {
+    display: none;
+}
+
+.reveal .map {
+    height: 90%;
+}
+
+.reveal .map img {
+    max-height: none;
+    max-width: none;
+    box-shadow: none;
+    border: none;
+}
+
+html.img-right div.slide-background.present {
+  background-position: right center;}
+
+html.img-left div.slide-background.present {
+  background-position: left center;}
+
+html.img-bottom div.slide-background.present {
+  background-position: bottom;}
+
+html.img-top div.slide-background.present {
+  background-position: top;}

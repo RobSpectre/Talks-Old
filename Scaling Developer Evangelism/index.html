@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Scaling Developer Evangelism</title>
+
+        <meta name="description" content="Lessons learned in scaling your developer outreach from Twilio." />
+        <meta name="author" content="Rob Spectre" />
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+
+        <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css" />
+        <link rel="stylesheet" href="bower_components/vis/dist/vis.min.css" />
+        <link rel="stylesheet" href="bower_components/c3/c3.min.css" />
+        
+        <link rel="stylesheet" href="styles/theme.css" id="theme" />
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section data-background-video="images/intro.mp4" data-background-color="#000">
+                    <img class="unstyled" src="images/twilio/Twilio_logo_white.png" />
+                    <div class="bio">
+                        <h3>Scaling Developer Evangelism</h3>
+                        <h4><a href="https://brooklynhacker.com">Rob Spectre</a> - <a href="https://twilio.com/dn0t">@dn0t</a></h4> 
+                    </div>
+                </section>
+                <section class="red">
+                    <img class="unstyled" src="images/twilio/Twilio_logo_white.png" />
+                    <div class="bio">
+                        <h3>Rob Spectre</h3>
+                        <h4><a href="https://twitter.com/dn0t">@dn0t</a> - <a href="mailto:rob@twilio.com">rob@twilio.com</a></h4> 
+                    </div>
+                    <div class="title">
+                        <h3>Title</h3>
+                        <h3>Subtitle</h3>
+                    </div>
+                </section>
+                <section>
+                    <img src="images/twilio/rob-spectre.jpg" />
+                    <h1>Regular Photo Card</h1>
+                </section>
+                <section data-background-image="images/ramones.jpg" data-state="img-top">
+                    <h1>Background Card</h1>
+                </section>
+                <section class="red">
+                    <h2 class="headline">Headline Card</h2>
+                </section>
+                <section>
+                    <h2 class="headline">Light Headline Card</h2>
+                </section>
+                <section class="chart-pie-slide">
+                    <div class="chart pie" id="pie"></div>
+                    <h1>Pie Card</h1>
+                </section>
+                <section class="chart-line-slide">
+                    <div class="chart line" id="chart-line"></div>
+                    <h1>Line Card</h1>
+                </section>
+                <section class="chart-bar-slide">
+                    <div class="chart bar" id="chart-bar"></div>
+                    <h1>Bar Card</h1>
+                </section>
+                <section class="chart-area-slide">
+                    <div class="chart area" id="chart-area"></div>
+                    <h1>Area Card</h1>
+                </section>
+                <section class="chart-pie-slide">
+                    <div class="chart pie" id="chart-pie-buildout">[["US Developers", 4600000]]</div>
+                    <div class="fragment chart">[["EMEA Developers", 6300000]]</div>
+                    <div class="fragment chart">[["APAC Developers", 6100000]]</div>
+                    <h1>Pie Card Buildout</h1>
+                </section>
+                <section class="chart-area-slide">
+                    <div class="chart area" id="chart-area-buildout">data/buildout_example_1.csv</div>
+                    <div class="fragment chart">data/buildout_example_2.csv</div>
+                    <div class="fragment chart">data/buildout_example_3.csv</div>
+                    <h1>Buildout With Data</h1>
+                </section>
+                <section class="funnel-chart-slide"> 
+                    <h1>Funnel Card</h1>
+                    <div class="funnel chart" id="funnel-chart">[["Awareness", 2000000],["Understanding", 1000000],["Adoption", 20000], ["Activation", 20000]]</div>
+                </section>
+                <section class="funnel-chart-slide"> 
+                    <h1>Funnel Card Buildout</h1>
+                    <div class="funnel chart" id="funnel-chart-buildout">[["Awareness", 2000000]]</div>
+                    <div class="fragment funnel chart">["Understanding", 1000000]</div>
+                    <div class="fragment funnel chart">["Adoption", 20000]</div>
+                    <div class="fragment funnel chart">["Activation", 20000]</div>
+                </section>
+                <section class="map-slide">
+                    <div class="map">{"location": "Brooklyn, NY", "zoom": 7}</div>
+                    <div class="fragment map marker">{"location": "Brooklyn, NY", "style": "twilio_red"}</div>
+                    <div class="fragment map zoom">{"location": "United States", "zoom": 4}</div>
+                    <div class="fragment map marker">[{"location": "San Francisco, CA", "style": "twilio_purple"}, {"location": "Mountain View, CA", "style": "twilio_blue"}]</div>
+                    <div class="fragment map zoom">{"location": "Burkina Faso", "zoom": 2}</div>
+                    <h1>Map Card</h1>
+                </section>
+                <section class="network-slide gray">
+                    <h1>Network Card</h1>
+                    <div class="network" id="network-chart"></div>
+                    <div class="fragment network add node">{"type": "developer", "quantity": 100}</div>
+                    <div class="fragment network add node">[{"type": "Twilio"}, {"type": "devangels"}]</div>
+                    <div class="fragment network zoom"></div>
+                    <div class="fragment network zoom">{"node": "Twilio", "zoom": 0.4}</div>
+                    <div class="fragment network add edge">{"from_type": "devangel", "to_type": "developer", "random": true, "type": "devangel", "interval": 200}</div>
+                    <div class="fragment network zoom">{"type": "devangel", "zoom": "random"}</div>
+                    <div class="fragment network zoom"></div>
+                    <div class="fragment network stop"></div>
+                    <div class="fragment network add node">{"type": "educators"}</div>
+                    <div class="fragment network zoom">{"type": "educator", "zoom": "random"}</div>
+                    <div class="fragment network add edge">{"from": "Twilio", "to_type": "developer", "type": "educator", "random": true, "interval": 300}</div>
+                    <div class="fragment network zoom"></div>
+                    <div class="fragment network stop"></div>
+                    <div class="fragment network add node">{"type": "community"}</div>
+                    <div class="fragment network add edge">{"from_type": "developer", "to_type": "developer", "type": "community", "random": true, "interval": 200}</div>
+                    <div class="fragment network zoom"></div>
+                </section>                
+                <section>
+                    <h1>Youtube Card</h1>
+                    <iframe width="853" height="480" src="//www.youtube.com/embed/aZGn4LncY0g?rel=0&amp;controls=0&amp;showinfo=0&amp;start=10&amp;enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+                </section>
+                <section class="red">
+                    <img class="unstyled" src="images/twilio/Twilio_logo_white.png" />
+                    <div class="bio">
+                        <h3>Thank You</h3>
+                        <h4><a href="https://twitter.com/dn0t">@dn0t</a> - <a href="mailto:rob@twilio.com">rob@twilio.com</a></h4> 
+                    </div>
+                    <div class="title">
+                        <h3>brooklynhacker.com</h3>
+                        <h3>github.com/RobSpectre/Talks</h3>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- Dependencies -->
+        <script src="bower_components/reveal.js/js/reveal.js"></script>
+        <script src="bower_components/highcharts/adapters/standalone-framework.js"></script>
+        <script src="bower_components/highcharts/highcharts.js"></script>
+        <script src="bower_components/highcharts/modules/funnel.js"></script>
+        <script src="bower_components/vis/dist/vis.min.js"></script>
+        <script src="bower_components/d3/d3.js"></script>
+        <script src="bower_components/c3/c3.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="//maps.googleapis.com/maps/api/js"></script>
+
+        <!-- Presentation files -->
+        <script src="js/presentation.js"></script>
+        <script src="js/charts.js"></script>
+        <script src="js/funnel_charts.js"></script>
+        <script src="js/network_charts.js"></script>
+        <script src="js/map.js"></script>
+    </body>
+</html>
