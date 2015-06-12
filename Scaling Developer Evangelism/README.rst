@@ -488,17 +488,17 @@ Outline
 
     - Big wins
 
-     - `Teaching a dog to take selfies`_
+      - `Teaching a dog to take selfies`_
 
-     - `New product categories get introduced`_
+      - `New product categories get introduced`_
 
-       - Text 'iphone', 'android' or 'windows' to (979) 272-6399.
+        - Text 'iphone', 'android' or 'windows' to (979) 272-6399.
 
-       - Whole new idea that came from content work.
+        - Whole new idea that came from content work.
 
-     - Single biggest driver of new traffic to twilio.com outside the home
-       page - if we don't publish another piece the rest of the year, the
-       Google juice will get us halfway to new customer goal.
+      - Single biggest driver of new traffic to twilio.com outside the home
+        page - if we don't publish another piece the rest of the year, the
+        Google juice will get us halfway to new customer goal.
 
   - Training
 
