@@ -319,384 +319,384 @@ Outline
 
 - Most Important Tools For Scale
 
-    - Measurement
+  - Measurement
 
-      - The Number 1 question I get asked by peers or candidates looking at
-        developer outreach as a career or strategy is "what defines success?"
+    - The Number 1 question I get asked by peers or candidates looking at
+      developer outreach as a career or strategy is "what defines success?"
 
-      - This is particularly important for engineers, who have built careers
-        moving user stories from sprint to sprint.
+    - This is particularly important for engineers, who have built careers
+      moving user stories from sprint to sprint.
 
-      - A lot of folks place the evangelism piece (which serves as only one part
-        of Twilio's overall network approach) in particular like a field
-        marketing organization, which appears to be an unsolved marketing
-        problem.
+    - A lot of folks place the evangelism piece (which serves as only one part
+      of Twilio's overall network approach) in particular like a field
+      marketing organization, which appears to be an unsolved marketing
+      problem.
 
-      - Three Challenges
+    - Three Challenges
 
-        - Difficulty of measurement
+      - Difficulty of measurement
 
-          - The metrics that matter - e.g. lifecycle events and API usage - are
-            often locked behind production interfaces that are difficult to
-            access.
+        - The metrics that matter - e.g. lifecycle events and API usage - are
+          often locked behind production interfaces that are difficult to
+          access.
 
-          - Getting these results is not often timely for an individual
-            interacting with the developer network in real time.
+        - Getting these results is not often timely for an individual
+          interacting with the developer network in real time.
 
-          - Few engineering organization prioritize access to this information.
+        - Few engineering organization prioritize access to this information.
 
-        - Replacement with vanity metrics
+      - Replacement with vanity metrics
 
-          - Tracking how many projects got built at a hackathon is next to
-            useless.
+        - Tracking how many projects got built at a hackathon is next to
+          useless.
 
-          - Sure is way easier than figuring out how many people signed up at a
-            hackathon, even with promo codes.
+        - Sure is way easier than figuring out how many people signed up at a
+          hackathon, even with promo codes.
 
-          - The easy things to measure often produce the wrong behaviors for
-            network growth.
+        - The easy things to measure often produce the wrong behaviors for
+          network growth.
 
-        - Measurement is latent and inaccurate
+      - Measurement is latent and inaccurate
 
-          - Because this is difficult, measurement often only comes at a
-            quarterly, or worse, basis.
+        - Because this is difficult, measurement often only comes at a
+          quarterly, or worse, basis.
 
-          - These reports are loaded with facts and figures that have low
-            actionability.
+        - These reports are loaded with facts and figures that have low
+          actionability.
 
-          - The edge of the network becomes unlikely to retain the measurement
-            or use it as an instrument to guide execution.
+        - The edge of the network becomes unlikely to retain the measurement
+          or use it as an instrument to guide execution.
 
-      - Three Solutions
+    - Three Solutions
 
-        - Beg, steal or borrow data
+      - Beg, steal or borrow data
 
-          - There is probably useful data in the tools you already have.
+        - There is probably useful data in the tools you already have.
 
-          - A lot of power in free tools like Google Analytics and social media
-            services.
+        - A lot of power in free tools like Google Analytics and social media
+          services.
 
-          - Three beers with the tech lead for your billing service can often
-            be more valuable than three meetings with your VP of engineering.
+        - Three beers with the tech lead for your billing service can often
+          be more valuable than three meetings with your VP of engineering.
 
-          - The captain of any good ship has to engage in some piracy every now
-            and again - no one is going to give you the data you need, you have
-            to get it.
+        - The captain of any good ship has to engage in some piracy every now
+          and again - no one is going to give you the data you need, you have
+          to get it.
 
-        - Find the right lens
+      - Find the right lens
 
-          - Zipcodes are functionally worthless. The audience is too mobile and
-            skews suburban to limit your scope to cities only.
+        - Zipcodes are functionally worthless. The audience is too mobile and
+          skews suburban to limit your scope to cities only.
 
-          - States/Provinces are too noisy - discerning your field work's
-            effectiveness is impossible from the overal progress of the
-            business.
+        - States/Provinces are too noisy - discerning your field work's
+          effectiveness is impossible from the overal progress of the
+          business.
 
-          - Borrow from Don Draper - the Designated Market Area is a useful
-            instrument.
+        - Borrow from Don Draper - the Designated Market Area is a useful
+          instrument.
 
-          - Example: Recent hackathon performance based on city, then based on
-            DMA.
+        - Example: Recent hackathon performance based on city, then based on
+          DMA.
 
-        - Push persistence to the edge.
+      - Push persistence to the edge.
 
-          - Centralizing reporting into a single person or job function shreds
-            the effectiveness those serving your network.
+        - Centralizing reporting into a single person or job function shreds
+          the effectiveness those serving your network.
 
-          - Like in a distributed service, the relevant data to make smart
-            application decisions must be pushed to the edge.
+        - Like in a distributed service, the relevant data to make smart
+          application decisions must be pushed to the edge.
 
-          - Every last person on your crew needs access to every last report you
-            generate.
+        - Every last person on your crew needs access to every last report you
+          generate.
 
-          - We've developed a few tools for this:
+        - We've developed a few tools for this:
 
-            - Trip report
+          - Trip report
 
-            - Metro ownership
+          - Metro ownership
 
-            - Data tools training part of onboarding
+          - Data tools training part of onboarding
 
-            - Using `Net Promoter Score`_ to gauge depth of touch. Developers
-              are notoriously loathe to recommend anything - strong NPS scores
-              are a reasonable measurement of the network effect we're trying to
-              create.
+          - Using `Net Promoter Score`_ to gauge depth of touch. Developers
+            are notoriously loathe to recommend anything - strong NPS scores
+            are a reasonable measurement of the network effect we're trying to
+            create.
 
-        - Good numbers are better than perfect numbers - YoY growth for most of
-          your metrics will tell you a lot.
+      - Good numbers are better than perfect numbers - YoY growth for most of
+        your metrics will tell you a lot.
 
-    - Content
+  - Content
 
-      - Balancing your online and offline outreach is very difficult to do.
+    - Balancing your online and offline outreach is very difficult to do.
 
-      - Every developer outreach program struggles with balancing the online and
-        offline experiences for your developers.
+    - Every developer outreach program struggles with balancing the online and
+      offline experiences for your developers.
 
-      - Documentation is the most important product you ship.
+    - Documentation is the most important product you ship.
 
-        - At Twilio, this starts from the very beginning.
+      - At Twilio, this starts from the very beginning.
 
-        - Any product at Twilio begins its life as documentation.
+      - Any product at Twilio begins its life as documentation.
 
-        - The developer will be spending five times as much time reading your
-          documentation than reading the responses from your API.
+      - The developer will be spending five times as much time reading your
+        documentation than reading the responses from your API.
 
-        - Optimizing for that experience in your developer outreach is critical
-          for scale.
+      - Optimizing for that experience in your developer outreach is critical
+        for scale.
 
-      - Technical content is the economy of scale for developer outreach
+    - Technical content is the economy of scale for developer outreach
 
-        - Or, to put it another way, the meetup you don't have to leave your
-          house to go to every month.
+      - Or, to put it another way, the meetup you don't have to leave your
+        house to go to every month.
 
-        - Case study: Tessel Sleep Tracker
+      - Case study: Tessel Sleep Tracker
 
-          - Developer evangelist `Ricky Robinett`_  has an adorable dog, Gif
-            whose utility on this Internet is boundless.
+        - Developer evangelist `Ricky Robinett`_  has an adorable dog, Gif
+          whose utility on this Internet is boundless.
 
-          - Gif is a Pomeranian that is probably the most stoked dog on the
-            planet, to the degree that it has spawned its own `parody Twitter
-            account`_.
-            
-          - For a talk at `Brooklyn.JS`_ he showed a little `Tessel`_ hack he
-            did to track the dog's sleep. wrote a piece on the
-            `Tessel`_ Internet of Things platform for his adorable dog, Gif.
+        - Gif is a Pomeranian that is probably the most stoked dog on the
+          planet, to the degree that it has spawned its own `parody Twitter
+          account`_.
           
-          - In concert, he wrote a `JavaScript tutorial describing how to build it`_.
+        - For a talk at `Brooklyn.JS`_ he showed a little `Tessel`_ hack he
+          did to track the dog's sleep. wrote a piece on the
+          `Tessel`_ Internet of Things platform for his adorable dog, Gif.
+        
+        - In concert, he wrote a `JavaScript tutorial describing how to build it`_.
 
-          - Talk, naturally, was a big hit: +55.9 NPS with 36 responses from a
-            70 person crowd.
+        - Talk, naturally, was a big hit: +55.9 NPS with 36 responses from a
+          70 person crowd.
 
-          - Blog post is also a reasonable base hit, getting a good 1.5k user
-            pop from social media.
+        - Blog post is also a reasonable base hit, getting a good 1.5k user
+          pop from social media.
 
-          - But the real victory were the months that followed - that post
-            continues to average 125 visitors a month at 5x the site average
-            time on page.
+        - But the real victory were the months that followed - that post
+          continues to average 125 visitors a month at 5x the site average
+          time on page.
 
-          - So basically every month getting twice the exposure of the meetup
-            for the same amount of effort.
+        - So basically every month getting twice the exposure of the meetup
+          for the same amount of effort.
 
-          - Obviously, the depth of those touches are unlikely to be the same,
-            but by doing both the talk and the blog post, Ricky achieved breadth
-            and depth of touch for the same piece of content.
+        - Obviously, the depth of those touches are unlikely to be the same,
+          but by doing both the talk and the blog post, Ricky achieved breadth
+          and depth of touch for the same piece of content.
 
-        - Often, developer outreach programs either do one or the other.
+      - Often, developer outreach programs either do one or the other.
 
-        - The wisdom of Aristotle prevails here - balance is key to achieving
-          scale.
+      - The wisdom of Aristotle prevails here - balance is key to achieving
+        scale.
 
-      - Big wins
+    - Big wins
 
-       - `Teaching a dog to take selfies`_
+     - `Teaching a dog to take selfies`_
 
-       - `New product categories get introduced`_
+     - `New product categories get introduced`_
 
-         - Text 'iphone', 'android' or 'windows' to (979) 272-6399.
+       - Text 'iphone', 'android' or 'windows' to (979) 272-6399.
 
-         - Whole new idea that came from content work.
+       - Whole new idea that came from content work.
 
-       - Single biggest driver of new traffic to twilio.com outside the home
-         page - if we don't publish another piece the rest of the year, the
-         Google juice will get us halfway to new customer goal.
+     - Single biggest driver of new traffic to twilio.com outside the home
+       page - if we don't publish another piece the rest of the year, the
+       Google juice will get us halfway to new customer goal.
 
-    - Training
+  - Training
 
-      - Hiring Funnel
+    - Hiring Funnel
 
-        - Hiring is the most difficult part of running a developer outreach
-          program.
+      - Hiring is the most difficult part of running a developer outreach
+        program.
 
-        - First of all, look at the numbers of developers - even in the two
-          countries Evans projects are growing double digits, the demand is
-          outstripping the supply.
+      - First of all, look at the numbers of developers - even in the two
+        countries Evans projects are growing double digits, the demand is
+        outstripping the supply.
 
-        - From that, reduce by the amount of people who are not paralytically
-          afraid of public speaking which some psychologists put as high as 75%.
+      - From that, reduce by the amount of people who are not paralytically
+        afraid of public speaking which some psychologists put as high as 75%.
 
-        - Of those, reduce by the number of people who take joy from the success
-          of others than themselves.
+      - Of those, reduce by the number of people who take joy from the success
+        of others than themselves.
 
-        - And then have the domain expertise for your particular technology.
+      - And then have the domain expertise for your particular technology.
 
-        - The 1% quickly becomes the 0.0001%
+      - The 1% quickly becomes the 0.0001%
 
-      - Retention 
+    - Retention 
 
-        - If hiring is this difficult, developing and retaining your talent
-          becomes paramount.
+      - If hiring is this difficult, developing and retaining your talent
+        becomes paramount.
 
-        - The track record in developer evangelism is not great here.
+      - The track record in developer evangelism is not great here.
 
-        - When I first took the job, everyone told me you could only do this job
-          for a year.
+      - When I first took the job, everyone told me you could only do this job
+        for a year.
 
-        - This is straight-up *bullshit*.
+      - This is straight-up *bullshit*.
 
-      - Training Is How You Keep People
+    - Training Is How You Keep People
 
-        - There are few silver bullets in the devrel game - training your people
-          is absolutely one of them.
+      - There are few silver bullets in the devrel game - training your people
+        is absolutely one of them.
 
-        - 3 years ago at Twilio, the longest anyone had served as a developer
-          evangelist was a year and a day.
+      - 3 years ago at Twilio, the longest anyone had served as a developer
+        evangelist was a year and a day.
 
-        - Today, 75% of the team has been with the crew over 1 year.
+      - Today, 75% of the team has been with the crew over 1 year.
 
-        - Over half have been with the crew over two.
+      - Over half have been with the crew over two.
 
-        - There is no secret here - training works.
+      - There is no secret here - training works.
 
-      - The Developer Network's Training Program
+    - The Developer Network's Training Program
 
-        - If you aren't spending 20% of your time and treasure on developing
-          your team, you are going to be spending 40% on recruiting.
+      - If you aren't spending 20% of your time and treasure on developing
+        your team, you are going to be spending 40% on recruiting.
 
-        - Team
+      - Team
 
-          - Quarterly Summits for each team
+        - Quarterly Summits for each team
 
-          - Everyone in one place at one time to spend half the time talking
-            strategy, half the time working on our craft.
+        - Everyone in one place at one time to spend half the time talking
+          strategy, half the time working on our craft.
 
-          - Not presentations, facilitated discussions where everyone is around
-            a table and everyone is called to serve to facilitate a discussion.
+        - Not presentations, facilitated discussions where everyone is around
+          a table and everyone is called to serve to facilitate a discussion.
 
-          - At least 8 days of team building per year
+        - At least 8 days of team building per year
 
-          - Quarterly cadence is hard to commit to as team grows, but absolutely
-            essential.
+        - Quarterly cadence is hard to commit to as team grows, but absolutely
+          essential.
 
-          - If we only did this, we'd be 80% of the way to where we are.
+        - If we only did this, we'd be 80% of the way to where we are.
 
-        - Individual
+      - Individual
 
-          - At least 5 days of external technical training
+        - At least 5 days of external technical training
 
-          - Gain insights from outside the bubble of the business.
+        - Gain insights from outside the bubble of the business.
 
-          - Can't recommend `Big Nerd Ranch`_ enough.
+        - Can't recommend `Big Nerd Ranch`_ enough.
 
-        - Peer-to-Peer
+      - Peer-to-Peer
 
-          - At least one opportunity a month.
+        - At least one opportunity a month.
 
-          - Demojam - single day training sessions on public speaking that are
-            peer led.
+        - Demojam - single day training sessions on public speaking that are
+          peer led.
 
-          - Tuneups - Google Hangouts for writing or public speaking
+        - Tuneups - Google Hangouts for writing or public speaking
 
-          - Content Review - voice and technical before anything ships
+        - Content Review - voice and technical before anything ships
 
-          - Worked / !Worked on everything.
+        - Worked / !Worked on everything.
        
-      - This is the closest thing you will ever get to a universal solution to
-        anything in developer relations.  You will never achieve scale without
-        intentional, comprehensive training. 
+    - This is the closest thing you will ever get to a universal solution to
+      anything in developer relations.  You will never achieve scale without
+      intentional, comprehensive training. 
 
 - Common Problems 
 
-    - Personnel
+  - Personnel
 
-      - Nothing is as effective to bringing a developer into your network than
-        introducing them to another developer.
+    - Nothing is as effective to bringing a developer into your network than
+      introducing them to another developer.
 
-      - Many of you know this already, developers don't want to talk to
-        marketers, they want to talk to other developers.
+    - Many of you know this already, developers don't want to talk to
+      marketers, they want to talk to other developers.
 
-      - Real network scale is achieved through vast webs of peer-to-peer
-        connections - this needs to be as true for the nodes within your company
-        as without
+    - Real network scale is achieved through vast webs of peer-to-peer
+      connections - this needs to be as true for the nodes within your company
+      as without
 
-      - Frequently, developer outreach programs will put a bigger premium on
-        soft skills than hard skills.
+    - Frequently, developer outreach programs will put a bigger premium on
+      soft skills than hard skills.
 
-      - Or, even more dangerously, will try to use salespeople instead.
+    - Or, even more dangerously, will try to use salespeople instead.
 
-      - There's no way around it - this audience views technical ability as a
-        Boolean condition.
+    - There's no way around it - this audience views technical ability as a
+      Boolean condition.
 
-      - "Good enough to be dangerous" works when you're selling guitars or
-        tires, but not APIs.
+    - "Good enough to be dangerous" works when you're selling guitars or
+      tires, but not APIs.
 
-      - What We Look For
+    - What We Look For
 
-        - Technical Credibility - real engineers
+      - Technical Credibility - real engineers
 
-        - Empathy
+      - Empathy
 
-        - Patience
+      - Patience
 
-        - Resiliency
+      - Resiliency
 
-        - Hustle
+      - Hustle
 
-      - You will - and *should* - have non-technical people serving in your
-        developer outreach in a number of critical capacities in your program.
+    - You will - and *should* - have non-technical people serving in your
+      developer outreach in a number of critical capacities in your program.
 
-      - But, for the core experience, the more times you have your audience
-        connecting with actual developers that can meet them as peers, the
-        greater scale you will achieve.
+    - But, for the core experience, the more times you have your audience
+      connecting with actual developers that can meet them as peers, the
+      greater scale you will achieve.
 
-    - Burnout
+  - Burnout
 
-      - Single biggest problem in developer outreach
+    - Single biggest problem in developer outreach
 
-      - Engineers are not naturally nomadic
+    - Engineers are not naturally nomadic
 
-      - You can speak at 5 conference a year in basically any staff engineering
-        job and get paid the same.
+    - You can speak at 5 conference a year in basically any staff engineering
+      job and get paid the same.
 
-      - Further, all the skills that make a good developer evangelist make a
-        lock as a fundable cofounder.
+    - Further, all the skills that make a good developer evangelist make a
+      lock as a fundable cofounder.
 
-      - In Silicon Valley in particular, we lose more candidate to their own
-        entrepreneurial ambition than to competitive offers.
+    - In Silicon Valley in particular, we lose more candidate to their own
+      entrepreneurial ambition than to competitive offers.
 
-      - Our solutions
+    - Our solutions
 
-        - Direct flights
+      - Direct flights
 
-        - Content balance
+      - Content balance
 
-        - Unlimited PTO - these are usually bullshit, you have to lead by
-          example here.
+      - Unlimited PTO - these are usually bullshit, you have to lead by
+        example here.
 
-        - Metro focus
+      - Metro focus
 
-    - Wrong Problems
+  - Wrong Problems
 
-      - Audience: What is the #1 question you get from someone entering
-        developer relations for the first time?
+    - Audience: What is the #1 question you get from someone entering
+      developer relations for the first time?
 
-      - Mine is "Which events should I be going to?"
+    - Mine is "Which events should I be going to?"
 
-      - Of the million things that you need to think about in your developer
-        outreach, it is super easy to focus on things that have nothing to do
-        with serving your developers well.
+    - Of the million things that you need to think about in your developer
+      outreach, it is super easy to focus on things that have nothing to do
+      with serving your developers well.
 
-      - There are some recurring themes I often hear folks struggle with -
-        avoiding them is key to achieving scale.
+    - There are some recurring themes I often hear folks struggle with -
+      avoiding them is key to achieving scale.
 
-      - The worst of the wrong problems to focus on
+    - The worst of the wrong problems to focus on
 
-        - Picking Events
+      - Picking Events
 
-          - Your evangelists already know which events are the important ones
+        - Your evangelists already know which events are the important ones
 
-          - If they don't, the developers you serve definitely do.
+        - If they don't, the developers you serve definitely do.
 
-          - Asking them will get you further than asking anyone at this
-            conference.
+        - Asking them will get you further than asking anyone at this
+          conference.
 
-          - You'll find out real fast what kind of events work for your product.
- 
-        - Reaching the Enterprise
+        - You'll find out real fast what kind of events work for your product.
 
-          - This is perhaps the most mystifying question I'll hear folks ask.
+      - Reaching the Enterprise
 
-          - Usually it is something to the effect of, "So, we went to some
-            hackathons - but how do we get into the enterprise developer?"
+        - This is perhaps the most mystifying question I'll hear folks ask.
+
+        - Usually it is something to the effect of, "So, we went to some
+          hackathons - but how do we get into the enterprise developer?"
 
           - As if the "enterprise developer" is some alien creature that is
             difficult to reach.
