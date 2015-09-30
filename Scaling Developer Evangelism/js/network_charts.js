@@ -369,7 +369,7 @@ function addTwilio() {
 
 function addDevangels() {
     var slide = Reveal.getCurrentSlide();
-    slide.devangels = ['Devin', 'Greg', 'Brent', 'Ricky', 'Matt', 'Marcos', 'Phil', 'Tony', 'Eva'];
+    slide.devangels = ['Devin', 'Greg', 'Brent', 'Sam', 'Eddie', 'Matt', 'Marcos', 'Phil', 'Eva'];
 
     var twilio_node = slide.network_chart.getPositions('Twilio').Twilio;
     for (i=0; i < slide.devangels.length; i++) {
@@ -388,7 +388,7 @@ function addDevangels() {
 
 function addEducators() {
     var slide = Reveal.getCurrentSlide();
-    slide.educators = ['Jarod', 'Kevin'];
+    slide.educators = ['Jarod', 'Kevin', 'Andrew'];
 
     var twilio_node = slide.network_chart.getPositions('Twilio').Twilio;
     for (i=0; i < slide.educators.length; i++) {
@@ -407,7 +407,7 @@ function addEducators() {
 
 function addCommunity() {
     var slide = Reveal.getCurrentSlide();
-    slide.community = ['Kyle', 'Crowe'];
+    slide.community = ['Kyle', 'Megan', 'Ricky'];
 
     var twilio_node = slide.network_chart.getPositions('Twilio').Twilio;
     for (i=0; i < slide.community.length; i++) {
