@@ -34,6 +34,10 @@ England.
   - Not only would the scenery inspire me to make my home in the greatest city
     in the world, but the story would be one that would be one that would have
     pronounced effect on me as I started a career in programming.
+  - It's a lesson all developers would do well to learn, lest we suffer
+    Spider-man's same fate
+  - For make no mistake, the great power we possess carries the same
+    responsibility as Spidey.
 - Agenda
   - Intro
     - Bio
