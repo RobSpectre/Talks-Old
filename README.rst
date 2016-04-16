@@ -31,6 +31,7 @@ Talks
 * `Kicking the Tires of Google App Engine`_: A 45 minute introduction to Google App Engine. Focusing on Python, this survey of Google's foray into the cloud business introduces developers to the benefits and detriments of the service, discusses recent changes that have great implications to app costs, and reviews code for the webapp, Datastore, Task, and Channel APIs.
 * `Learn Brogramming the Hard Way`_: A fifteen-minute comedy routine riffing on the Brogramming meme. Performed as the uber-bro character "Chad," this presentation showcases a framework for improving oneself as a brogrammer called The Brotocol - Grok, Trunk and Live.
 * `Mobile App Distribution via SMS`_: A twenty minute presentation showing how Twilio customers are driving awareness and adoption of their mobile apps through SMS.
+* `Measuring Developer Evangelism`_: A thirty minute presentation on measuring the effectiveness of your developer outreach program.
 * `Open Source Television`_: A thirty minute conceptual talk introducing the `Boxee`_ platform to open source enthusiasts.
 * `Product Oriented Architecture`_: An argument for a different type of software architecture where all services are built as hardened APIs that can be externalized to customers.
 * `SMS For Humans: Using NLP and Python To Build Text Interfaces Fat Fingers Can Use`_: A live coding presentation introducing easy-to-implement use cases that dramaticaly improve user experiences using natural language processing.
@@ -63,6 +64,7 @@ Meta
 .. _Intro to Programming: https://github.com/RobSpectre/Talks/tree/master/Intro%20to%20Programming
 .. _Kicking the Tires of Google App Engine: https://github.com/RobSpectre/Talks/tree/master/Kicking%20the%20Tires%20of%20Google%20App%20Engine
 .. _Learn Brogramming the Hard Way: https://github.com/RobSpectre/Talks/tree/master/Learn%20Brogramming%20the%20Hard%20Way
+.. _Measuring Developer Evangelism: https://github.com/RobSpectre/Talks/tree/master/Measuring%20Developer%20Evangelism
 .. _Mobile App Distribution via SMS: https://github.com/RobSpectre/Talks/tree/master/Mobile%20App%20Distribution%20via%20SMS
 .. _Open Source Television: https://github.com/RobSpectre/Talks/tree/master/Open%20Source%20Television
 .. _Product Oriented Architecture: https://github.com/RobSpectre/Talks/tree/master/Product%20Oriented%20Architecture
