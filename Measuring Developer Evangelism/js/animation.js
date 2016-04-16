@@ -1,5 +1,5 @@
 $.fn.extend({
-  animateCss: function (animationName) {
+  animateCss: function (animationName, intro) {
     var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
     $(this).addClass('animated ' + animationName).one(animationEnd, function() {
       $(this).removeClass('animated ' + animationName);
@@ -25,7 +25,7 @@ function cycleTitleHeadings(slide) {
 
   $(slide).find(".visible").removeClass("visible").animateCss("bounceOutRight");
   
-  $(titleHeadings[slide.titleIndex]).addClass("visible").animateCss("bounceInLeft");
+  $(titleHeadings[slide.titleIndex]).removeClass("masked").addClass("visible").animateCss("bounceInLeft");
 
   slide.titleIndex++;
 }
