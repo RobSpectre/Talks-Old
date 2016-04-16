@@ -10,6 +10,7 @@
     "grunt-sass": "^0.17.0"
   },
   "dependencies": {
-    "grunt-cli": "~0.1.13"
+    "grunt-cli": "~0.1.13",
+    "node-sass": "^3.4.2"
   }
 }
