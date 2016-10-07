@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>Hacking Human Trafficking: Tackling Modern Slavery With Software</title>
+
+  <meta name="description" content="Another well-rehearsed talk from Twilio." />
+  <meta name="author" content="Rob Spectre" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+
+  <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css" />
+  <link rel="stylesheet" href="bower_components/vis/dist/vis.min.css" />
+  <link rel="stylesheet" href="bower_components/c3/c3.min.css" />
+  <link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
+
+  <link rel="stylesheet" href="styles/theme.css" id="theme" />
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+    <section class="red title">
+      <img class="unstyled" src="images/twilio/Twilio_logo_white.png" />
+      <div class="title">
+        <h3>Hacking Human Trafficking</h3>
+        <h3>Rob Spectre</h3>
+        <h3>@dn0t</h3>
+        <h3>rob@brooklynhacker.com</h3>
+      </div>
+    </section>
+    <section class="custom">
+        <div class="chart bar" id="reference"></div>
+        <div class="fragment custom reference" id="global_2000"></div>
+        <div class="fragment custom reference" id="global_2000_stacked"></div>
+        <div class="fragment custom reference" id="apple"></div>
+        <div class="fragment custom reference" id="microsoft"></div>
+        <div class="fragment custom reference" id="google"></div>
+        <div class="fragment custom reference" id="ibm"></div>
+        <div class="fragment custom reference" id="cisco"></div>
+        <div class="fragment custom reference" id="general-electric"></div>
+        <div class="fragment custom reference" id="disney"></div>
+        <div class="fragment custom reference" id="boeing"></div>
+        <div class="fragment custom reference" id="coke"></div>
+        <div class="fragment custom reference" id="toyota"></div>
+        <div class="fragment custom reference" id="guide"></div>
+        <div class="fragment custom reference" id="yankees"></div>
+        <h1>Reference</h1>
+    </section>
+    <section class="network-slide gray">
+      <div class="network" id="network">{"groups":{"tmobile":{"image":"images/t-mobile.png","shape":"image","font":"14px arial white","size":35},"google":{"image":"images/google-voice.png","shape":"image","font":"14px arial white","size":35},"verizon":{"image":"images/verizon.png","shape":"image","font":"14px arial white","size":35},"number":{"shape":"dot","color":{"border":"#a7a5a5","background":"#a7a5a5","highlight":{"border":"red","background":"white"}},"size":25,"font":"0px arial white"},"important":{"shape":"dot","color":{"border":"red","background":"red","highlight":{"border":"red","background":"white"}},"size":150,"mass":3,"font":{"size":"0"}}}}</div>
+      <div class="fragment network add node">{"type": "tmobile", "quantity": 1}</div>
+      <div class="fragment network add node">{"type": "google", "quantity": 1}</div>
+      <div class="fragment network add edge">{"from_type": "tmobile", "to_type": "google"}</div>
+      <div class="fragment network add node">{"type": "verizon", "quantity": 1}</div>
+      <div class="fragment network add edge">{"from_type": "google", "to_type": "verizon"}</div>
+      <div class="fragment custom" id="convert-to-number"></div>
+      <div class="fragment custom" id="remove-edges"></div>
+      <div class="fragment network add node">{"type": "number", "quantity": 30}</div>
+      <div class="fragment network zoom"></div>
+      <div class="fragment network add node">{"type": "number", "quantity": 180}</div>
+      <div class="fragment network zoom"></div>
+      <div class="fragment custom" id="highlight-important"></div>
+    </section>
+    <section class="title" data-background-video="images/intro.mp4"
+             data-background-video-loop>
+      <img class="unstyled" src="images/twilio/Twilio_logo_white.png" />
+      <div class="title">
+        <h3>Thank You!</h3>
+        <h3>More Resources</h3>
+        <h3>brooklynhacker.com</h3>
+        <h3>github.com/RobSpectre/Talks</h3>
+      </div>
+    </section>
+  </div>
+</div>
+
+  <!-- Dependencies -->
+  <script src="bower_components/reveal.js/js/reveal.js"></script>
+  <script src="bower_components/highcharts/adapters/standalone-framework.js"></script>
+  <script src="bower_components/highcharts/highcharts.js"></script>
+  <script src="bower_components/highcharts/modules/funnel.js"></script>
+  <script src="bower_components/vis/dist/vis.min.js"></script>
+  <script src="bower_components/d3/d3.js"></script>
+  <script src="bower_components/c3/c3.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="//maps.googleapis.com/maps/api/js"></script>
+
+  <!-- Presentation files -->
+  <script src="js/presentation.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/funnel_charts.js"></script>
+  <script src="js/pyramid_charts.js"></script>
+  <script src="js/network_charts.js"></script>
+  <script src="js/map.js"></script>
+  <script src="js/animation.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+</html>
