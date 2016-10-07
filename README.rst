@@ -34,7 +34,7 @@ Talks
 * `Measuring Developer Evangelism`_: A thirty minute presentation on measuring the effectiveness of your developer outreach program.
 * `Open Source Television`_: A thirty minute conceptual talk introducing the `Boxee`_ platform to open source enthusiasts.
 * `Product Oriented Architecture`_: An argument for a different type of software architecture where all services are built as hardened APIs that can be externalized to customers.
-* `SMS For Humans: Using NLP and Python To Build Text Interfaces Fat Fingers Can Use`_: A live coding presentation introducing easy-to-implement use cases that dramaticaly improve user experiences using natural language processing.
+* `SMS For Humans: Using NLP and Python To Build Text Interfaces Fat Fingers Can Use`_: A live coding presentation introducing easy-to-implement use cases that dramatically improve user experiences using natural language processing.
 * `Twilio Karaoke`: A 30 minute live coding presentation that builds a functioning karaoke machine using `Twilio`_ SMS, Voice and Client.
 * `Upgrade Your Toolkit With The Power of Voice`_: A practical list of easy-to-implement, cheap tools for leveraging voice to acquire more leads and more customers.
 * `We Were Promised Jetpacks: An Introduction to Android Wear Development`: A 30 minute introduction to building an app on Android Wear for intermediate to experienced Android developers.
