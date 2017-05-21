@@ -12,6 +12,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
 
   <link rel="stylesheet" href="bower_components/reveal.js/css/reveal.css" />
+  <link rel="stylesheet" href="bower_components/reveal.js/lib/css/zenburn.css" />
   <link rel="stylesheet" href="bower_components/vis/dist/vis.min.css" />
   <link rel="stylesheet" href="bower_components/c3/c3.min.css" />
   <link rel="stylesheet" href="bower_components/animate.css/animate.min.css" />
@@ -48,6 +49,55 @@
     <section data-background-image="images/vr.gif">
       <h1>Beats Oculus</h1>
     </section>
+    <section data-background-image="images/hello.gif" data-state="img-left">
+      <h1>Hello</h1>
+    </section>
+    <section class="red">
+      <img class="unstyled" style="margin-top: 1em;" src="images/boxee.png" />
+      <img class="unstyled" src="images/twilio/Twilio_logo_white.png" />
+    </section>
+		<section class="pyramid-chart-slide"> 
+      <h1>Agenda</h1>
+      <div class="pyramid chart" id="pyramid-chart-buildout">[["Product", 5]]</div>
+      <div class="fragment pyramid chart">["Marketing", 4]</div>
+      <div class="fragment pyramid chart">["Sales", 3]</div>
+    </section>        
+		<section data-background-image="images/unicorn.gif">
+			<h1>Rainbow Rain</h1>
+		</section>
+		<section class="red">
+			<h2 class="headline">Product</h2>
+		</section>
+		<section data-background-image="images/poker.gif">
+			<h1>Table Stakes</h1>
+		</section>
+		<section data-background-image="images/difficult.gif">
+			<h1>Difficult</h1>
+		</section>
+		<section data-background-image="images/power.gif">
+			<h1>Utility Pricing</h1>
+		</section>
+		<section data-background-image="images/cozy.gif">
+			<h1>Cozy Interface</h1>
+		</section>
+		<section>
+      <pre><code data-noescape>
+from twilio.rest import TwilioRestClient
+
+client = TwilioRestClient()
+
+client.messages.create(from_="+17189891458",
+                       to="+15558675309",
+                       body="Hot damn, this interface is cozy.")
+      </code></pre>
+			<h1>Not Your Interface</h1>
+		</section>
+		<section class="red">
+			<h2 class="headline">Marketing</h2>
+		</section>
+		<section class="red">
+			<h2 class="headline">Sales</h2>
+		</section>
     <section class="title" data-background-video="images/intro.mp4"
              data-background-video-loop
              data-background-video-muted
@@ -65,6 +115,7 @@
 </div>
 
   <!-- Dependencies -->
+  <script src="bower_components/headjs/dist/1.0.0/head.min.js"></script>
   <script src="bower_components/reveal.js/js/reveal.js"></script>
   <script src="bower_components/highcharts/adapters/standalone-framework.js"></script>
   <script src="bower_components/highcharts/highcharts.js"></script>

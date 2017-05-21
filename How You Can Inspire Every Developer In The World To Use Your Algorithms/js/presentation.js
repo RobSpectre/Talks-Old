@@ -5,7 +5,12 @@ Reveal.initialize({
   history: true,
   overview: false,
   loop: false,
-  transition: 'none'
+  transition: 'none',
+	dependencies: [
+		{ src: '/bower_components/reveal.js/plugin/highlight/highlight.js',
+		  async: true,
+		  callback: function() { hljs.initHighlightingOnLoad(); } },
+	]
 });
 
 // Fragment Routers
