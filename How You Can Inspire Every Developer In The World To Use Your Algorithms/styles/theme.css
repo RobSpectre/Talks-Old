@@ -380,6 +380,10 @@ body {
   box-shadow: none;
   border: none; }
 
+.reveal pre code {
+  height: 580px;
+  max-height: 581px; }
+
 html.img-right div.slide-background.present {
   background-position: right center; }
 
